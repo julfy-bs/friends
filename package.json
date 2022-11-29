@@ -1,0 +1,44 @@
+{
+  "name": "friends",
+  "version": "0.0.1",
+  "description": "Работа веб-разработчиков 19 когорты 4 команды проектного месяца на курсе Яндекс.Практикума.",
+  "private": true,
+  "scripts": {
+    "lint:fix": "eslint --fix",
+    "prettier:fix": "prettier --write",
+    "stylelint:fix": "stylelint --fix"
+  },
+  "devDependencies": {
+    "eslint": "^8.28.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^4.3.8",
+    "lint-staged": "^13.0.4",
+    "prettier": "2.8.0",
+    "stylelint": "^14.15.0",
+    "stylelint-config-prettier": "^9.0.4",
+    "stylelint-config-standard": "^29.0.0"
+  },
+  "lint-staged": {
+    "scripts/*.js": [
+      "npm run lint:fix"
+    ],
+    "*.html": [
+      "npm run prettier:fix"
+    ],
+    "*.css": [
+      "npm run stylelint:fix"
+    ]
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julfy-bs/friends.git"
+  }
+}
