@@ -16,6 +16,10 @@
 - [normalize.css][tech-normalize-css]
 - [TinyPNG][tech-tiny-png]
 - [ESLint][tech-eslint]
+- [Prettier][tech-prettier]
+- [Stylelint][tech-stylelint]
+- [husky][tech-husky]
+- [Lint-staged][tech-lint-staged]
 
 ## Как развернуть проект локально?
 
@@ -56,8 +60,8 @@ git clone git@github.com:julfy-bs/friends.git
 [//]: # 'Разработчики'
 [developer-shestakov]: https://github.com/
 [developer-yeshizhamsoev]: https://github.com/boolishta
-[developer-guryanov]: https://github.com/
-[developer-kovaleva]: https://github.com/
+[developer-guryanov]: https://github.com/igorgurianov
+[developer-kovaleva]: https://github.com/Kovaleva-Galina
 [developer-sutuzhko]: https://github.com/julfy-bs
 
 [//]: # 'Исходники'
@@ -74,3 +78,7 @@ git clone git@github.com:julfy-bs/friends.git
 [tech-normalize-css]: https://necolas.github.io/normalize.css/
 [tech-eslint]: https://eslint.org/
 [tech-tiny-png]: https://tinypng.com/
+[tech-prettier]: https://prettier.io/
+[tech-stylelint]: https://stylelint.io/
+[tech-husky]: https://www.npmjs.com/package/husky
+[tech-lint-staged]: https://github.com/okonet/lint-staged
