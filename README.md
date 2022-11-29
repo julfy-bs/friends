@@ -58,7 +58,7 @@ git clone git@github.com:julfy-bs/friends.git
 [yandex-styleguide]: https://code.s3.yandex.net/web-developer/static/design-rules/index.html
 
 [//]: # 'Разработчики'
-[developer-shestakov]: https://github.com/
+[developer-shestakov]: https://github.com/ShestakovEA
 [developer-yeshizhamsoev]: https://github.com/boolishta
 [developer-guryanov]: https://github.com/igorgurianov
 [developer-kovaleva]: https://github.com/Kovaleva-Galina
