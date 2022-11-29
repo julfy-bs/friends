@@ -1,0 +1,28 @@
+:root {
+  --black100: '#FFFFFF';
+  --black90: '#F8F8F8';
+  --black80: '#F1F5F9';
+  --black70: '#E3E7EB';
+  --black60: '#C5C9CD';
+  --black50: '#999999';
+  --black40: '#6B6B6B';
+  --black30: '#424242';
+  --black20: '#302f2d';
+  --black10: '#000000';
+  --turquoise80: '#85CBD9';
+  --turquoise70: '#77C5D5';
+  --turquoise60: '#71BBCA';
+  --turquoise40: '#54A8B6';
+  --blue80: '#6398C5';
+  --blue70: '#528CBE';
+  --blue60: '#487FAE';
+  --pink80: '#F47B8B';
+  --pink70: '#DE6F7E';
+  --pink60: '#CF6674';
+  --purple80: '#F0BA61';
+  --purple70: '#82607D';
+  --purple60: '#775872';
+  --yellow80: '#F0BA61';
+  --yellow70: '#EEB250';
+  --yellow60: '#E8AD4D';
+}
