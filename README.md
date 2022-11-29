@@ -27,6 +27,14 @@
 ```
 git clone git@github.com:julfy-bs/friends.git
 ```
+- Установить зависимости
+```
+npm install
+```
+или
+```
+yarn install
+```
 - Запустить проект локально
 ```
 Запустить файл index.html
