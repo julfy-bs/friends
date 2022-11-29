@@ -2,7 +2,6 @@
   "name": "friends",
   "version": "0.0.1",
   "description": "Работа веб-разработчиков 19 когорты 4 команды проектного месяца на курсе Яндекс.Практикума.",
-  "main": "scripts/main.js",
   "private": true,
   "scripts": {
     "lint:fix": "eslint --fix",
