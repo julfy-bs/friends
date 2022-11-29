@@ -1,0 +1,15 @@
+{
+  "name": "friends",
+  "version": "0.0.1",
+  "description": "Работа веб-разработчиков 19 когорты 4 команды проектного месяца на курсе Яндекс.Практикума.",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julfy-bs/friends.git"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
