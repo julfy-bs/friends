@@ -9,6 +9,7 @@
 - [макетом десктоп версии][friends-figma-web]
 
 ## В разработке используются следующие технологии:
+
 - [HTML5][tech-html]
 - [CSS3][tech-css]
 - [JavaScript][tech-js]
@@ -24,18 +25,25 @@
 ## Как развернуть проект локально?
 
 - Клонировать проект
+
 ```
 git clone git@github.com:julfy-bs/friends.git
 ```
+
 - Установить зависимости
+
 ```
 npm install
 ```
+
 или
+
 ```
 yarn install
 ```
+
 - Запустить проект локально
+
 ```
 Запустить файл index.html
 ```
@@ -46,7 +54,7 @@ yarn install
 2. Сделать pull изменений с github.
 3. Создать ветку от ветки develop по образцу 'feature/название-тикета'.
 4. После выполнения задачи тикета сделать Pull Request в ветку develop, в описании PR указать ссылку на тикет в Trello.
-5. В графе 'Assignees' указать свой аккаунт. 
+5. В графе 'Assignees' указать свой аккаунт.
 6. Перенести карточку в Trello в столбик 'Waiting Review'.
 7. Отписать о готовности тикета в чате команды: 'Тикет название-тикета выполнен (ссылка-на-тикет).'
 
@@ -64,20 +72,17 @@ yarn install
 [yandex-practicum-web-plus]: https://practicum.yandex.ru/promo/long-courses/web
 [yandex-practicum-url]: https://practicum.yandex.ru/
 [yandex-styleguide]: https://code.s3.yandex.net/web-developer/static/design-rules/index.html
-
 [//]: # 'Разработчики'
 [developer-shestakov]: https://github.com/ShestakovEA
 [developer-yeshizhamsoev]: https://github.com/boolishta
 [developer-guryanov]: https://github.com/igorgurianov
 [developer-kovaleva]: https://github.com/Kovaleva-Galina
 [developer-sutuzhko]: https://github.com/julfy-bs
-
 [//]: # 'Исходники'
 [friends-trello]: https://trello.com/b/wXSiXmPb/workspace-team-4
 [friends-brief]: https://www.notion.so/37e46dafb47f44a29a910e5300f5e615
 [friends-figma-web]: https://www.figma.com/file/mOCTA1MNqW5l41Kmc1YzU8/%D0%A4%D0%BE%D0%BD%D0%B4-%D0%94%D1%80%D1%83%D0%B7%D1%8C%D1%8F?node-id=1%3A2
 [friends-figma-mobile]: https://www.figma.com/file/mOCTA1MNqW5l41Kmc1YzU8/%D0%A4%D0%BE%D0%BD%D0%B4-%D0%94%D1%80%D1%83%D0%B7%D1%8C%D1%8F?node-id=263%3A1385&t=Cz3zASQ3xLrdxol3-0
-
 [//]: # 'Технологии'
 [tech-html]: https://html5.org/
 [tech-css]: https://www.w3.org/Style/CSS/Overview.en.html
