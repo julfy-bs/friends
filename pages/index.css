@@ -1,4 +1,10 @@
+
 @import url('../vendor/normalize.css');
+/* variables */
 @import url('../vendor/variables.css');
+/* fonts */
 @import url(../vendor/fonts/fonts.css);
+/* page */
 @import url('../blocks/page/page.css');
+@import url('../blocks/page/__content/page__content.css');
+
