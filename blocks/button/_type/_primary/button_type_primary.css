@@ -1,8 +1,0 @@
-.button_type_primary {
-  background-color: var(--blue70, #528cbe);
-  border-radius: 56px;
-}
-
-.button_type_primary:hover {
-  background-color: var(--blue60, #487fae);
-}
