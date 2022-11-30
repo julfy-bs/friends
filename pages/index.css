@@ -9,3 +9,9 @@
 /* page */
 @import url('../blocks/page/page.css');
 @import url('../blocks/page/__content/page__content.css');
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_type/_primary/button_type_primary.css);
+@import url(../blocks/button/_type/_additional/button_type_additional.css);
+@import url(../blocks/button/_type/_light/button_type_light.css);
+@import url(../blocks/button/_radius/_sm/button_radius_sm.css);
+@import url(../blocks/button/_radius/_unset/button_radius_unset.css);

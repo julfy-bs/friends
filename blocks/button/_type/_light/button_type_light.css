@@ -1,0 +1,9 @@
+.button_type_light {
+  background-color: var(--black90, #f8f8f8);
+  border-radius: 56px;
+  color: var(--black10, #000);
+}
+
+.button_type_light:hover {
+  background-color: var(--black80, #f1f5f9);
+}
