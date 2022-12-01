@@ -1,0 +1,9 @@
+.prices__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  max-width: 1032px;
+  margin: 28px 40px 0 40px;
+  padding: 0;
+  justify-content: center; 
+  gap: 40px 8px;
+} 
