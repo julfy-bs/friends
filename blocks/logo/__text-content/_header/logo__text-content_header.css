@@ -1,0 +1,5 @@
+.logo__text-content_header {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}

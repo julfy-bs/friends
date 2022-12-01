@@ -1,0 +1,10 @@
+.social-media__vk-link {
+  display: block;
+  background-image: url('../../../images/vk-icon.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 24px;
+  height: 24px;
+  filter: invert(1);
+}

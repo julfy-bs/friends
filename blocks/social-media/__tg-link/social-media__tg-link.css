@@ -1,0 +1,10 @@
+.social-media__tg-link {
+  display: block;
+  background-image: url(../../../images/telegram-icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 20px;
+  height: 17px;
+  filter: invert(1);
+}

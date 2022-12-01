@@ -1,2 +1,37 @@
-@import url("../vendor/normalize.css");
-@import url("../blocks/page/page.css");
+@import url('../vendor/normalize.css');
+@import url('../blocks/page/page.css');
+
+/* HEADER */
+@import url(../blocks/header/__button/header__button.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/navigation/_header/navigation_header.css);
+
+/* LOGO */
+@import url(../blocks//logo/logo.css);
+@import url(../blocks/logo/__icon/_header/logo__icon_header.css);
+@import url(../blocks/logo/__text-content/_header/logo__text-content_header.css);
+@import url(../blocks/logo/__text-upper/logo__text-upper.css);
+@import url(../blocks/logo/__text-lower/logo__text-lower.css);
+@import url(../blocks/logo/_header/logo_header.css);
+
+/* NAVIGATION */
+@import url(../blocks/navigation/navigation.css);
+@import url(../blocks/navigation/_header/navigation_header.css);
+@import url(../blocks/navigation/__list/navigation__list.css);
+@import url(../blocks/navigation/__link/navigation__link.css);
+
+/* SOCIAL MEDIA */
+@import url(../blocks/social-media/social-media.css);
+@import url(../blocks/social-media/__icon/social-media__icon.css);
+@import url(../blocks/social-media/__item/social-media__item.css);
+@import url(../blocks/social-media/__link/social-media__link.css);
+@import url(../blocks/social-media/__tg-link/social-media__tg-link.css);
+@import url(../blocks/social-media/__vk-link/social-media__vk-link.css);
+
+/* LANG SWITCHER */
+@import url(../blocks/lang-switcher/lang-switcher.css);
+@import url(../blocks/lang-switcher/__item/lang-switcher__item.css);
+@import url(../blocks/lang-switcher/__link/lang-switcher__link.css);
+
+/* BTN */
+@import url(../blocks/btn/_open-navmenu/btn_open-navmenu.css);

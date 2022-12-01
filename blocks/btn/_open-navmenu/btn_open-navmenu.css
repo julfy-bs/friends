@@ -1,0 +1,19 @@
+.btn_open-navmenu {
+  display: none;
+  margin: 0 0 0 24px;
+  padding: 0;
+  border: none;
+  height: 18px;
+  min-width: 24px;
+  background-image: url(../../../images/nav-menu-icon.svg);
+  background-size: 18px 24px;
+  background-color: transparent;
+  background-position: center;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 959px) {
+  .btn_open-navmenu {
+    display: block;
+  }
+}

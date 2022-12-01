@@ -1,0 +1,8 @@
+.logo__text-upper {
+  display: inline-block;
+  font-size: 5px;
+  line-height: 8px;
+  letter-spacing: 3%;
+  color: #fff;
+  text-transform: uppercase;
+}
