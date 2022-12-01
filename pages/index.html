@@ -12,15 +12,15 @@
   </head>
   <body class="page">
     <!--Header starts -->
-    <section class="header">
-      <button type="menu" class="btn_open-navmenu"></button>
+    <header class="header">
+      <button class="header__nav-btn" type="menu"></button>
       <div class="logo logo_header">
         <img class="logo__icon_header" src="../images/friend-fond-logo.svg" alt="Логотип фонда" />
         <h1 class="logo__text-content_header">
           <span class="logo__text-upper">Фонд</span> <span class="logo__text-lower">Друзья</span>
         </h1>
       </div>
-      <nav class="navigation navigation_header">
+      <nav class="navigation">
         <ul class="navigation__list">
           <li class="navigation__item">
             <a class="navigation__link" href="#">Фонд</a>
@@ -29,10 +29,10 @@
             <a class="navigation__link" href="#">Программы</a>
           </li>
           <li class="navigation__item">
-            <a class="navigation__link" href="#">Для НКО</a>
+            <a class="navigation__link" href="#">Для&nbsp;НКО</a>
           </li>
           <li class="navigation__item">
-            <a class="navigation__link" href="#">Для бизнеса</a>
+            <a class="navigation__link" href="#">Для&nbsp;бизнеса</a>
           </li>
           <li class="navigation__item">
             <a class="navigation__link" href="#">Блог</a>
@@ -44,24 +44,24 @@
             <a class="navigation__link" href="#">Контакты</a>
           </li>
         </ul>
+        <ul class="social-media">
+          <li class="social-media__item">
+            <a class="social-media__vk-link" href="#"> </a>
+          </li>
+          <li class="social-media__item">
+            <a class="social-media__tg-link" href="#"> </a>
+          </li>
+        </ul>
+        <ul class="lang-switcher">
+          <li class="lang-switcher__item">
+            <a class="lang-switcher__link lang-switcher__link_active" href="#">Ру</a>
+          </li>
+          <li class="lang-switcher__item">
+            <a class="lang-switcher__link" href="#">En</a>
+          </li>
+        </ul>
       </nav>
-      <ul class="social-media">
-        <li class="social-media__item">
-          <a class="social-media__vk-link" href="#"> </a>
-        </li>
-        <li class="social-media__item">
-          <a class="social-media__tg-link" href="#"> </a>
-        </li>
-      </ul>
-      <ul class="lang-switcher">
-        <li class="lang-switcher__item">
-          <a class="lang-switcher__link" href="#">Ру</a>
-        </li>
-        <li class="lang-switcher__item">
-          <a class="lang-switcher__link" href="#">En</a>
-        </li>
-      </ul>
-      <button type="button" class="header__button btn_help-fund">Помочь&nbsp;фонду</button>
-    </section>
+      <a class="header__helpfund-link">Помочь&nbsp;фонду</a>
+    </header>
   </body>
 </html>

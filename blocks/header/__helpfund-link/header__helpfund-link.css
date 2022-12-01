@@ -1,0 +1,27 @@
+.header__helpfund-link {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  background-color: #eeb250;
+  width: 16.56%;
+  border: none;
+  color: #fff;
+  line-height: 20px;
+  font-size: 16px;
+  min-width: fit-content;
+  cursor: pointer;
+}
+
+.header__helpfund-link:hover {
+  background-color: #e8ad4d;
+}
+
+@media screen and (max-width: 768px) {
+  .header__helpfund-link {
+    width: 136px;
+    margin-left: auto;
+  }
+}

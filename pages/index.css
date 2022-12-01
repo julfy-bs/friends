@@ -2,9 +2,11 @@
 @import url('../blocks/page/page.css');
 
 /* HEADER */
-@import url(../blocks/header/__button/header__button.css);
+@import url(../blocks/header/__helpfund-link/header__helpfund-link.css);
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__navigation/header__navigation.css);
 @import url(../blocks/navigation/_header/navigation_header.css);
+@import url(../blocks/header/__nav-btn/header__nav-btn.css);
 
 /* LOGO */
 @import url(../blocks//logo/logo.css);
@@ -16,7 +18,6 @@
 
 /* NAVIGATION */
 @import url(../blocks/navigation/navigation.css);
-@import url(../blocks/navigation/_header/navigation_header.css);
 @import url(../blocks/navigation/__list/navigation__list.css);
 @import url(../blocks/navigation/__link/navigation__link.css);
 
@@ -32,6 +33,4 @@
 @import url(../blocks/lang-switcher/lang-switcher.css);
 @import url(../blocks/lang-switcher/__item/lang-switcher__item.css);
 @import url(../blocks/lang-switcher/__link/lang-switcher__link.css);
-
-/* BTN */
-@import url(../blocks/btn/_open-navmenu/btn_open-navmenu.css);
+@import url(../blocks/lang-switcher/__link/_active/lang-switcher__link_active.css);

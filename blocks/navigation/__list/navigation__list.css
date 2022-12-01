@@ -3,5 +3,6 @@
   margin: 0;
   list-style: none;
   display: flex;
+  width: 74%;
   justify-content: space-between;
 }

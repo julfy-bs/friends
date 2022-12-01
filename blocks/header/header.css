@@ -4,5 +4,15 @@
   margin: 0 auto;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   background-color: #54a8b6;
+  position: sticky;
+  top: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    justify-content: left;
+    max-height: 48px;
+  }
 }
