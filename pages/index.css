@@ -9,3 +9,6 @@
 /* page */
 @import url('../blocks/page/page.css');
 @import url('../blocks/page/__content/page__content.css');
+
+/* section-title */
+@import url('../blocks/section-title/section-title.css');
