@@ -1,0 +1,13 @@
+.main-carousel__description {
+  margin: 16px 0 0;
+  max-width: 70%;
+  font-size: 18px;
+  line-height: 1.44;
+}
+
+@media screen and (max-width: 600px) {
+  .main-carousel__description {
+    max-width: unset;
+    font-size: 14px;
+  }
+}
