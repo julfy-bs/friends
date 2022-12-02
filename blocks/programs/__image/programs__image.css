@@ -1,0 +1,12 @@
+.programs__image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .programs__image {
+    display: none;
+  }
+}

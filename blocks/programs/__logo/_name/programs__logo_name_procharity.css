@@ -1,0 +1,6 @@
+@media screen and (max-width: 600px) {
+  .programs__logo_name_procharity {
+    width: 32px;
+    height: 32px;
+  }
+}

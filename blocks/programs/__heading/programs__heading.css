@@ -1,0 +1,19 @@
+.programs__heading {
+  margin: 16px 0 0;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 1.18;
+  color: var(--color-white);
+}
+
+@media screen and (max-width: 600px) {
+  .programs__heading {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .programs__heading {
+    word-break: break-all;
+  }
+}
