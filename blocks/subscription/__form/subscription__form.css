@@ -1,0 +1,11 @@
+.subscription__form {
+  display: flex;
+  gap: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+  .subscription__form {
+    flex-direction: column;
+    align-items: center;
+  }
+}
