@@ -18,14 +18,22 @@
   .main-carousel__content {
     max-width: unset;
     right: 84px;
-    padding: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-carousel__content {
+    top: 60px;
+    right: 30px;
+    left: 30px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .main-carousel__content {
-    top: 60px;
-    right: 30px;
-    left: 30px;
+    top: 8px;
+    right: 8px;
+    left: 8px;
+    padding: 24px 16px 26px;
   }
 }

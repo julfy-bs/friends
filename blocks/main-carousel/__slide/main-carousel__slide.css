@@ -21,8 +21,8 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .main-carousel__slide {
-    height: 440px;
+    height: 486px;
   }
 }

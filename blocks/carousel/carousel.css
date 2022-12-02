@@ -16,3 +16,13 @@
 .carousel .swiper-pagination {
   bottom: 18px;
 }
+
+@media screen and (max-width: 600px) {
+  .carousel {
+    --swiper-pagination-bullet-size: 8px;
+  }
+
+  .carousel .swiper-pagination {
+    bottom: 8px;
+  }
+}
