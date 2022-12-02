@@ -21,5 +21,6 @@
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url('./Playfair_Display/PlayfairDisplay-Italic.ttf') format('truetype');
+  src: url('./Playfair_Display/PlayfairDisplay-Italic.woff') format('woff'),
+    url('./Playfair_Display/PlayfairDisplay-Italic.woff2') format('woff2');
 }

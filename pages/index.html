@@ -8,11 +8,75 @@
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Главная - Друзья</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./index.css" />
   </head>
   <body class="page">
     <header class="page__header"></header>
     <main class="page__content">
+      <section class="main-carousel carousel">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="main-carousel__slide">
+                <img
+                  class="main-carousel__image"
+                  src="/images/slide-1.jpg"
+                  alt="Коллектив фонда Дружба"
+                />
+                <div class="main-carousel__content main-carousel__content_background">
+                  <h1 class="main-carousel__title">
+                    Мы <span class="main-carousel__title-accent">помогаем</span> фондам, чтобы они
+                    <span class="main-carousel__title-accent">помогали</span> другим
+                  </h1>
+                  <p class="main-carousel__description">
+                    <span class="main-carousel__description-accent">Фонд «Друзья»</span> — это фонд
+                    для тех, кто хочет приносить пользу другим людям ничего за это не беря.
+                  </p>
+                  <a class="main-carousel__link" href="#">Наши программы</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="main-carousel__slide">
+                <img class="main-carousel__image" src="/images/slide-2.jpg" alt="Выпускной" />
+                <div class="main-carousel__content">
+                  <h2 class="main-carousel__title">
+                    Создаем настоящую<span class="main-carousel__title-accent"
+                      >школу,&nbsp;институт</span
+                    >&nbsp;благотворительности
+                  </h2>
+                  <p class="main-carousel__description">
+                    <span class="main-carousel__description-accent"
+                      >Московская школа профессиональной филантропии</span
+                    >
+                    — это фактически акселератор НКО-проектов, который создает сообщество
+                    профессионалов.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="main-carousel__slide">
+                <img class="main-carousel__image" src="/images/slide-3.jpg" alt="Ноутбук" />
+                <div class="main-carousel__content">
+                  <h2 class="main-carousel__title main-carousel__title_width_sm">
+                    Профессионализм и опыт<span class="main-carousel__title-accent">в дар</span>
+                  </h2>
+                  <p class="main-carousel__description">
+                    Платформа интеллектуального волонтерства
+                    <span class="main-carousel__description-accent">ProCharity</span> — cкорая
+                    интеллектуальная помощь для благотворительных фондов.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <button class="carousel__arrow carousel__arrow_type_prev"></button>
+        <button class="carousel__arrow carousel__arrow_type_next"></button>
+      </section>
       <section class="prices">
         <h2 class="section-title prices__title">Наши ценности</h2>
         <ul class="prices__list">
@@ -37,8 +101,10 @@
             <p class="price__text">Измеримый эффект</p>
           </li>
         </ul>
-      </section> 
+      </section>
     </main>
     <footer class="page__footer"></footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./index.js"></script>
   </body>
 </html>
