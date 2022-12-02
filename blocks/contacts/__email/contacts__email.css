@@ -1,0 +1,18 @@
+.contacts__email {
+  display: block;
+  margin: 0;
+  padding: 32px 0 16px 0;
+  text-align: center;
+  text-decoration: none;
+  font-size: 40px;
+  line-height: 60px;
+  color: var(--color-turquoise-60);
+}
+
+@media screen and (max-width: 768px) {
+  .contacts__email {
+    font-size: 30px;
+    padding-top: 16px;
+    line-height: 42px;
+  }
+}
