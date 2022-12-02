@@ -42,7 +42,8 @@
 
 @import url('../blocks/main-carousel/__link/main-carousel__link.css');
 
-/* price */
+/* prices */
+@import url('../blocks/prices/prices.css');
 @import url('../blocks/price/price.css');
 @import url('../blocks/price/__text/price__text.css');
 @import url('../blocks/price/__image/price__image.css');
