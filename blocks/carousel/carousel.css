@@ -1,0 +1,28 @@
+.carousel {
+  --swiper-pagination-bullet-size: 10px;
+  --swiper-pagination-bullet-inactive-opacity: 0.4;
+  --swiper-pagination-bullet-inactive-color: var(--color-white);
+  --swiper-pagination-color: #00fffa;
+  --swiper-pagination-bullet-horizontal-gap: 6px;
+
+  position: relative;
+}
+
+.carousel .swiper-pagination-bullet-active {
+  width: 29px;
+  border-radius: 6px;
+}
+
+.carousel .swiper-pagination {
+  bottom: 18px;
+}
+
+@media screen and (max-width: 600px) {
+  .carousel {
+    --swiper-pagination-bullet-size: 8px;
+  }
+
+  .carousel .swiper-pagination {
+    bottom: 8px;
+  }
+}

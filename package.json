@@ -40,5 +40,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/julfy-bs/friends.git"
+  },
+  "dependencies": {
+    "swiper": "^8.4.5"
   }
 }

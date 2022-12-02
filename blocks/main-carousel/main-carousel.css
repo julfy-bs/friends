@@ -1,0 +1,13 @@
+.main-carousel {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1310px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .main-carousel {
+    padding: 0;
+  }
+}
