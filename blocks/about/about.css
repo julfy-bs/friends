@@ -1,0 +1,11 @@
+.about {
+  margin: 96px 124px;
+  position: relative;
+} 
+
+@media screen and (max-width: 767px) {
+  .about {
+    margin: 56px 24px;
+    position: relative;
+  } 
+}
