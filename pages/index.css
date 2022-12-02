@@ -21,3 +21,23 @@
 @import url('../blocks/button/_type/button_type_light.css');
 @import url('../blocks/button/_radius/button_radius_sm.css');
 @import url('../blocks/button/_radius/button_radius_unset.css');
+
+/* carousel */
+@import url('../blocks/carousel/carousel.css');
+@import url('../blocks/carousel/__arrow/carousel__arrow.css');
+@import url('../blocks/carousel/__arrow/_type/carousel__arrow_type_prev.css');
+@import url('../blocks/carousel/__arrow/_type/carousel__arrow_type_next.css');
+
+/* main-carousel */
+@import url('../blocks/main-carousel/main-carousel.css');
+@import url('../blocks/main-carousel/__slide/main-carousel__slide.css');
+@import url('../blocks/main-carousel/__image/main-carousel__image.css');
+@import url('../blocks/main-carousel/__content/main-carousel__content.css');
+@import url('../blocks/main-carousel/__content/_background/main-carousel__content_background.css');
+@import url('../blocks/main-carousel/__title/main-carousel__title.css');
+@import url('../blocks/main-carousel/__title/_width/main-carousel__title_width_sm.css');
+@import url('../blocks/main-carousel/__title-accent/main-carousel__title-accent.css');
+@import url('../blocks/main-carousel/__description/main-carousel__description.css');
+@import url('../blocks/main-carousel/__description-accent/main-carousel__description-accent.css');
+
+@import url('../blocks/main-carousel/__link/main-carousel__link.css');

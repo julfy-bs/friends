@@ -1,0 +1,7 @@
+.carousel__arrow_type_prev {
+  left: 24px;
+}
+
+.carousel__arrow_type_prev::after {
+  transform: rotate(180deg);
+}
