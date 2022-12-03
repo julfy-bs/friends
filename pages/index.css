@@ -28,6 +28,7 @@
 @import url('../blocks/carousel/__arrow/carousel__arrow.css');
 @import url('../blocks/carousel/__arrow/_type/carousel__arrow_type_prev.css');
 @import url('../blocks/carousel/__arrow/_type/carousel__arrow_type_next.css');
+@import url('../blocks/carousel/__pagination/carousel__pagination.css');
 
 /* main-carousel */
 @import url('../blocks/main-carousel/main-carousel.css');
@@ -92,7 +93,6 @@
 @import url('../blocks/about/__figure/_position/about__figure_position_third.css');
 @import url('../blocks/about/__figure/_position/about__figure_position_thirteenth.css');
 @import url('../blocks/about/__figure/_position/about__figure_position_twelfth.css');
-
 /* subscription */
 @import url(../blocks/subscription/subscription.css);
 @import url(../blocks/subscription/__wrapper/subscription__wrapper.css);
@@ -105,3 +105,6 @@
 @import url(../blocks/subscription/__clear/subscription__clear.css);
 @import url(../blocks/subscription/__clear/_enabled/subscription__clear_enabled.css);
 @import url(../blocks/subscription/__input-wrapper/subscription__input-wrapper.css);
+
+/* our friends */
+@import url('../blocks/our-friends/our-friends.css');
