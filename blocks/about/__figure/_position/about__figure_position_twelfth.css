@@ -2,3 +2,9 @@
   top: 588px;
   left: 480px;
 }
+
+@media screen and (max-width: 767px) {
+  .about__figure_position_twelfth {
+    left: 360px;
+  } 
+}
