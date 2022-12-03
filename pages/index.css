@@ -6,6 +6,9 @@
 /* fonts */
 @import url('../vendor/fonts/fonts.css');
 
+/* common */
+@import url('../vendor/common.css');
+
 /* page */
 @import url('../blocks/page/page.css');
 @import url('../blocks/page/__content/page__content.css');
