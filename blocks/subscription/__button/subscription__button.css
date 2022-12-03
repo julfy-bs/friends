@@ -1,0 +1,15 @@
+.subscription__button {
+  background-color: var(--color-blue-70);
+  color: var(--color-white);
+  width: 152px;
+  height: 56px;
+  border: none;
+  border-radius: 56px;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1024px) {
+  .subscription__button {
+    width: 327px;
+  }
+}
