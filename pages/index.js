@@ -2,10 +2,11 @@ function initSwiper(element) {
   const swiperElement = element.querySelector('.swiper');
   const nextEl = element.querySelector('.carousel__arrow_type_next');
   const prevEl = element.querySelector('.carousel__arrow_type_prev');
+  const paginationEl = element.querySelector('.swiper-pagination');
   // eslint-disable-next-line no-undef
   const swiper = new Swiper(swiperElement, {
     pagination: {
-      el: '.swiper-pagination',
+      el: paginationEl,
       type: 'bullets',
       clickable: true,
     },
@@ -15,11 +16,12 @@ function initSwiper(element) {
     },
     loop: true,
     spaceBetween: 30,
-    autoplay: {
-      delay: 15000,
-      disableOnInteraction: false,
-      pauseOnMouseEnter: true,
-    },
+    // TODO: uncomment
+    // autoplay: {
+    //   delay: 15000,
+    //   disableOnInteraction: false,
+    //   pauseOnMouseEnter: true,
+    // },
   });
   return swiper;
 }

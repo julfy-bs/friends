@@ -108,3 +108,14 @@
 
 /* our friends */
 @import url('../blocks/our-friends/our-friends.css');
+@import url('../blocks/our-friends/__blockquote/our-friends__blockquote.css');
+@import url('../blocks/our-friends/__blockquote-accent/our-friends__blockquote-accent.css');
+@import url('../blocks/our-friends/__carousel/our-friends__carousel.css');
+@import url('../blocks/our-friends/__cite/our-friends__cite.css');
+@import url('../blocks/our-friends/__cite-accent/our-friends__cite-accent.css');
+@import url('../blocks/our-friends/__figure/our-friends__figure.css');
+@import url('../blocks/our-friends/__image/our-friends__image.css');
+@import url('../blocks/our-friends/__pagination/our-friends__pagination.css');
+@import url('../blocks/our-friends/__slide/our-friends__slide.css');
+@import url('../blocks/our-friends/__slide/_direction/our-friends__slide_direction_reverse.css');
+@import url('../blocks/our-friends/__title/our-friends__title.css');
