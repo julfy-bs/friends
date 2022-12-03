@@ -16,12 +16,11 @@ function initSwiper(element) {
     },
     loop: true,
     spaceBetween: 30,
-    // TODO: uncomment
-    // autoplay: {
-    //   delay: 15000,
-    //   disableOnInteraction: false,
-    //   pauseOnMouseEnter: true,
-    // },
+    autoplay: {
+      delay: 15000,
+      disableOnInteraction: false,
+      pauseOnMouseEnter: true,
+    },
   });
   return swiper;
 }
