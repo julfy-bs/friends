@@ -1,0 +1,12 @@
+.about__figure_position_second {
+  z-index: -1;
+  top: 556px;
+  right: 591px;
+}
+
+@media screen and (max-width: 767px) {
+  .about__figure_position_second {
+    bottom: 157px;
+    left: -33px;
+  }
+}
