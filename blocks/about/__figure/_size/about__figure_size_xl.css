@@ -1,0 +1,12 @@
+.about__figure_size_xl {
+  width: 576px;
+  height: 233px;
+  border-radius: 136px;
+}
+
+@media screen and (max-width: 767px) {
+  .about__figure_size_xl {
+    width: 70vw;
+    height: 33vw;
+  }
+}

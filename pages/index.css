@@ -10,6 +10,7 @@
 @import url('../blocks/page/page.css');
 @import url('../blocks/page/__content/page__content.css');
 @import url('../blocks/page/__title/page__title.css');
+@import url('../blocks/page/__list/page__list.css');
 
 /* section-title */
 @import url('../blocks/section-title/section-title.css');
@@ -41,3 +42,47 @@
 @import url('../blocks/main-carousel/__description-accent/main-carousel__description-accent.css');
 
 @import url('../blocks/main-carousel/__link/main-carousel__link.css');
+
+/* about */
+@import url('../blocks/about/about.css');
+@import url('../blocks/about/__info/about__info.css');
+@import url('../blocks/about/__title/about__title.css');
+@import url('../blocks/about/__text/about__text.css');
+@import url('../blocks/about/__list/about__list.css');
+@import url('../blocks/about/__item/about__item.css');
+@import url('../blocks/about/__item/__develop/about__item__develop.css');
+@import url('../blocks/about/__item/__evolution/about__item__evolution.css');
+@import url('../blocks/about/__item/__found/about__item__found.css');
+@import url('../blocks/about/__item/__study/about__item__study.css');
+@import url('../blocks/about/__figure/_color/about__figure_color_blue.css');
+@import url('../blocks/about/__figure/_color/about__figure_color_pink.css');
+@import url('../blocks/about/__figure/_color/about__figure_color_turquoise.css');
+@import url('../blocks/about/__figure/_color/about__figure_color_yellow.css');
+@import url('../blocks/about/__item/__image/about__item__image.css');
+@import url('../blocks/about/__item/__image/__lamp/about__item__image__lamp.css');
+@import url('../blocks/about/__item/__image/__book/about__item__image__book.css');
+@import url('../blocks/about/__item/__image/__case/about__item__image__case.css');
+@import url('../blocks/about/__item/__text/about__item__text.css');
+@import url('../blocks/about/__figure/about__figire.css');
+@import url('../blocks/about/__figure/_color/about__figure_color_grey.css');
+@import url('../blocks/about/__figure/_size/about__figure_size_l.css');
+@import url('../blocks/about/__figure/_size/about__figure_size_m.css');
+@import url('../blocks/about/__figure/_size/about__figure_size_s.css');
+@import url('../blocks/about/__figure/_size/about__figure_size_xl.css');
+@import url('../blocks/about/__figure/_size/about__figure_size_xs.css');
+@import url('../blocks/about/__figure/_size/about__figure_size_xxs.css');
+@import url('../blocks/about/__figure/_position/about__figure_position_first.css');
+@import url('../blocks/about/__figure/_position/about__figure_position_eighth.css');
+@import url('../blocks/about/__figure/_position/about__figure_position_eleventh.css');
+@import url('../blocks/about/__figure/_position/about__figure_position_fifteenth.css');
+@import url('../blocks/about/__figure/_position/about__figure_position_fifth.css');
+@import url('../blocks/about/__figure/_position/about__figure_position_fourteenth.css');
+@import url('../blocks/about/__figure/_position/about__figure_position_fourth.css');
+@import url('../blocks/about/__figure/_position/about__figure_position_ninth.css');
+@import url('../blocks/about/__figure/_position/about__figure_position_second.css');
+@import url('../blocks/about/__figure/_position/about__figure_position_seventh.css');
+@import url('../blocks/about/__figure/_position/about__figure_position_sixth.css');
+@import url('../blocks/about/__figure/_position/about__figure_position_tenth.css');
+@import url('../blocks/about/__figure/_position/about__figure_position_third.css');
+@import url('../blocks/about/__figure/_position/about__figure_position_thirteenth.css');
+@import url('../blocks/about/__figure/_position/about__figure_position_twelfth.css');
