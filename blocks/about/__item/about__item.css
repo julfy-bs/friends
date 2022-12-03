@@ -1,0 +1,22 @@
+.about__item {
+  width: 416px;
+  height: 163px;
+  border-radius: 136px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: -3vw;
+  gap: 2.4vw;
+}
+
+.about__item:first-child {
+  margin-top: 0; 
+}
+
+@media screen and (max-width: 767px) {
+  .about__item {
+    margin-top: -2vw;
+    width: 72%;
+    height: 102px;
+  }
+}

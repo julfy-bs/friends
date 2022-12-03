@@ -1,0 +1,36 @@
+.subscription__input {
+  box-sizing: border-box;
+  padding-left: 34px;
+  margin: 0;
+  width: 328px;
+  height: 56px;
+  border: none;
+  border-radius: 56px;
+}
+
+.subscription__input::placeholder {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--color-grey-50);
+  background-image: url(../../../images/email-icon.svg);
+  background-repeat: no-repeat;
+  padding-left: 26px;
+}
+
+.subscription__input::-webkit-input-placeholder {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--color-grey-50);
+}
+
+.subscription__input::-moz-placeholder {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--color-grey-50);
+}
+
+.subscription__input::-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--color-grey-50);
+}

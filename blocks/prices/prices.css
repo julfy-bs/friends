@@ -1,0 +1,9 @@
+.prices {
+  margin: 96px 124px;
+}
+
+@media screen and (max-width: 768px) {
+  .prices {
+    margin: 56px 40px;
+  }
+}

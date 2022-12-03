@@ -1,0 +1,15 @@
+.subscription__text-container {
+  padding: 43px 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .subscription__text-container {
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+}
