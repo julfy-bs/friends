@@ -1,0 +1,12 @@
+.our-friends__blockquote {
+  margin: 0 0 16px;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 1.32;
+}
+
+@media screen and (max-width: 1200px) {
+  .our-friends__blockquote {
+    font-size: 27px;
+  }
+}
