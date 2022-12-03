@@ -13,7 +13,23 @@
   <body class="page">
     <header class="page__header"></header>
     <main class="page__content">
-
+      <section class="connection">
+        <h2 class="page__title section-title">Связаться с нами</h2>
+        <p class="connection__text">Если у вас есть вопросы или предложения, напишите нам. Мы ответим в течение дня</p>
+        <form class="connection__form">
+          <div class="connection__form__info">
+            <input class="connection__form__item" type="text" placeholder="Имя" required>
+            <input class="connection__form__item" type="email" placeholder="E-mail" required>
+          </div>
+          <textarea class="connection__form__item connection__form_type_main-text" id="main-text" name="main-text" placeholder="Сообщение" required></textarea>
+          <label class="checkbox">
+            <input class="checkbox__input" type="checkbox" id="approval" name="approval" required>
+            <span class="checkbox__checkmark"></span>
+            <span class="checkbox__span" for="approval">Я согласен с <a target="_blank" href="#" class="link">пользовательским соглашением</a></span>
+          </label>
+          <button class="button button_radius_sm button_type_light connection__form__button" type="submit">Отправить</button>
+      </form>
+      </section>
     </main>
     <footer class="page__footer"></footer>
   </body>
