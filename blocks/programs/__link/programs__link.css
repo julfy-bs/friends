@@ -1,0 +1,26 @@
+.programs__link {
+  display: flex;
+  max-width: max-content;
+  margin-top: 56px;
+  padding: 18px 52px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 56px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  color: var(--color-white);
+  text-decoration: none;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.programs__link:hover {
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
+
+@media screen and (max-width: 600px) {
+  .programs__link {
+    margin-top: 24px;
+  }
+}

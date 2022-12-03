@@ -1,0 +1,14 @@
+.programs__item_direction_left {
+  flex-direction: row-reverse;
+}
+
+.programs__item_direction_left > .programs__image {
+  right: unset;
+  left: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .programs__item_direction_left {
+    flex-direction: row;
+  }
+}

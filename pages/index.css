@@ -6,6 +6,9 @@
 /* fonts */
 @import url('../vendor/fonts/fonts.css');
 
+/* common */
+@import url('../vendor/common.css');
+
 /* page */
 @import url('../blocks/page/page.css');
 @import url('../blocks/page/__content/page__content.css');
@@ -22,6 +25,26 @@
 @import url('../blocks/button/_type/button_type_light.css');
 @import url('../blocks/button/_radius/button_radius_sm.css');
 @import url('../blocks/button/_radius/button_radius_unset.css');
+
+/* programs */
+@import url('../blocks/programs/programs.css');
+@import url('../blocks/programs/__content/programs__content.css');
+@import url('../blocks/programs/__description/programs__description.css');
+@import url('../blocks/programs/__heading/programs__heading.css');
+@import url('../blocks/programs/__image/programs__image.css');
+@import url('../blocks/programs/__item/programs__item.css');
+@import url('../blocks/programs/__item/_color/programs__item_color_blue.css');
+@import url('../blocks/programs/__item/_color/programs__item_color_pink.css');
+@import url('../blocks/programs/__item/_color/programs__item_color_turquoise.css');
+@import url('../blocks/programs/__item/_direction/programs__item_direction_left.css');
+@import url('../blocks/programs/__items/programs__items.css');
+@import url('../blocks/programs/__link/programs__link.css');
+@import url('../blocks/programs/__logo/_name/programs__logo_name_command.css');
+@import url('../blocks/programs/__logo/_name/programs__logo_name_procharity.css');
+@import url('../blocks/programs/__logo/_name/programs__logo_name_command.css');
+@import url('../blocks/programs/__name/programs__name.css');
+@import url('../blocks/programs/__title/programs__title.css');
+@import url('../blocks/programs/__top/programs__top.css');
 
 /* carousel */
 @import url('../blocks/carousel/carousel.css');
