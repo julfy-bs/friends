@@ -1,0 +1,25 @@
+.main-carousel__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 1.06;
+}
+
+@media screen and (max-width: 1200px) {
+  .main-carousel__title {
+    font-size: 48px;
+    word-wrap: break-word;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-carousel__title {
+    font-size: 42px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .main-carousel__title {
+    font-size: 36px;
+  }
+}
