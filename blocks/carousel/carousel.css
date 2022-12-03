@@ -1,7 +1,6 @@
 .carousel {
   --swiper-pagination-bullet-size: 10px;
-  --swiper-pagination-bullet-inactive-opacity: 0.4;
-  --swiper-pagination-bullet-inactive-color: var(--color-white);
+  --swiper-pagination-bullet-inactive-color: var(--color-grey-70);
   --swiper-pagination-color: #00fffa;
   --swiper-pagination-bullet-horizontal-gap: 6px;
 
@@ -13,7 +12,7 @@
   border-radius: 6px;
 }
 
-.carousel .swiper-pagination {
+.carousel .swiper-pagination:not(.carousel__pagination) {
   bottom: 18px;
 }
 
@@ -22,7 +21,7 @@
     --swiper-pagination-bullet-size: 8px;
   }
 
-  .carousel .swiper-pagination {
+  .carousel .swiper-pagination:not(.carousel__pagination) {
     bottom: 8px;
   }
 }
