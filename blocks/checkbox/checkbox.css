@@ -1,0 +1,5 @@
+.checkbox {
+  position: relative;
+  cursor: pointer;
+  display: inline-flex;
+}

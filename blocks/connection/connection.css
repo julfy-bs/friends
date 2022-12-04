@@ -1,0 +1,12 @@
+.connection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 96px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .connection {
+    margin: 56px 0;
+  }
+}
