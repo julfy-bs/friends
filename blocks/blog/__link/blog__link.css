@@ -1,0 +1,17 @@
+.blog__link {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+  color: inherit;
+  background-color: var(--color-grey-90);
+}
+
+.blog__link:hover .blog__title {
+  color: var(--color-turquoise-40);
+}
+
+@media screen and (max-width: 426px) {
+  .blog__link {
+    background-color: var(--color-white);
+  }
+}

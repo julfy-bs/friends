@@ -142,3 +142,21 @@
 @import url('../blocks/our-friends/__slide/our-friends__slide.css');
 @import url('../blocks/our-friends/__slide/_direction/our-friends__slide_direction_reverse.css');
 @import url('../blocks/our-friends/__title/our-friends__title.css');
+
+/* blog */
+@import url('../blocks/blog/blog.css');
+@import url('../blocks/blog/__button/blog__button.css');
+@import url('../blocks/blog/__carousel/blog__carousel.css');
+@import url('../blocks/blog/__content/blog__content.css');
+@import url('../blocks/blog/__date/blog__date.css');
+@import url('../blocks/blog/__heading/blog__heading.css');
+@import url('../blocks/blog/__image/blog__image.css');
+@import url('../blocks/blog/__info/blog__info.css');
+@import url('../blocks/blog/__items/blog__items.css');
+@import url('../blocks/blog/__label/blog__label.css');
+@import url('../blocks/blog/__label/_type/blog__label_type_analis.css');
+@import url('../blocks/blog/__label/_type/blog__label_type_statistics.css');
+@import url('../blocks/blog/__link/blog__link.css');
+@import url('../blocks/blog/__news/blog__news.css');
+@import url('../blocks/blog/__news/_size/blog__news_size_large.css');
+@import url('../blocks/blog/__title/blog__title.css');

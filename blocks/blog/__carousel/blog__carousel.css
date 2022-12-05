@@ -1,0 +1,10 @@
+.blog__carousel {
+  position: relative;
+  margin: 56px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .blog__carousel {
+    margin: 24px 0;
+  }
+}
