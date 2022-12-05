@@ -1,0 +1,14 @@
+.contacts__header {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .contacts__header {
+    font-size: 30px;
+    line-height: 44px;
+  }
+}
