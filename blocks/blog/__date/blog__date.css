@@ -1,0 +1,15 @@
+.blog__date {
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 1.2;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--color-purple-60);
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .blog__date {
+    font-size: 8px;
+  }
+}
