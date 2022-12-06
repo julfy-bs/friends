@@ -11,3 +11,9 @@
     column-gap: 10px;
   }
 }
+
+@media screen and (max-width: 860px) {
+  .social-media {
+    column-gap: 5px;
+  }
+}
