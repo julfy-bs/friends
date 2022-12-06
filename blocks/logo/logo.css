@@ -1,0 +1,7 @@
+.logo {
+  display: block;
+  max-height: 46px;
+  max-width: 124px;
+  object-fit: cover;
+  object-position: center;
+}

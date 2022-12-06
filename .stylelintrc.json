@@ -1,9 +1,0 @@
-{
-  "extends": ["stylelint-config-standard", "stylelint-config-prettier"],
-  "rules": {
-    "indentation": 2,
-    "linebreaks": "unix",
-    "string-quotes": "single",
-    "declaration-block-trailing-semicolon": "always"
-  }
-}

@@ -6,7 +6,6 @@ const swiperOptions = {
       clickable: true,
     },
     navigation: {},
-    loop: true,
     spaceBetween: 30,
     autoplay: {
       delay: 15000,

@@ -1,0 +1,11 @@
+.footer-navigation {
+  display: flex;
+  align-items: center;
+  gap: 16px 24px;
+}
+
+@media screen and (max-width: 1025px) {
+  .footer-navigation {
+    flex-wrap: wrap;
+  }
+}
