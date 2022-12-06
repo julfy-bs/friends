@@ -25,13 +25,13 @@
 @import url('../blocks/footer/__section/_name/footer__section_name_contacts.css');
 @import url('../blocks/footer/__section/_name/footer__section_name_disclaimer.css');
 
-/* navigation */
-@import url('../blocks/navigation/navigation.css');
-@import url('../blocks/navigation/__link/navigation__link.css');
-@import url('../blocks/navigation/__link/_weight/navigation__link_weight_regular.css');
-@import url('../blocks/navigation/__link/_weight/navigation__link_weight_bold.css');
-@import url('../blocks/navigation/__link/_color/navigation__link_color_white.css');
-@import url('../blocks/navigation/__link/_color/navigation__link_color_yellow.css');
+/* footer-navigation */
+@import url('../blocks/footer-navigation/footer-navigation.css');
+@import url('../blocks/footer-navigation/__link/footer-navigation__link.css');
+@import url('../blocks/footer-navigation/__link/_weight/footer-navigation__link_weight_regular.css');
+@import url('../blocks/footer-navigation/__link/_weight/footer-navigation__link_weight_bold.css');
+@import url('../blocks/footer-navigation/__link/_color/footer-navigation__link_color_white.css');
+@import url('../blocks/footer-navigation/__link/_color/footer-navigation__link_color_yellow.css');
 
 /* contact-data */
 @import url('../blocks/contact-data/contact-data.css');
