@@ -1,11 +1,16 @@
 .contacts {
-  margin: 95px auto 0;
-  max-width: 840px;
+  padding: 95px 20px 0;
+  margin: 0 auto;
+  max-width: 873px;
+  box-sizing: border-box;
+  flex-direction: column;
+  display: flex;
+  gap: 16px;
   color: var(--color-black);
 }
 
 @media screen and (max-width: 768px) {
   .contacts {
-    margin-top: 61px;
+    padding: 61px 14px 0;
   }
 }
