@@ -1,3 +1,3 @@
 .contact-data__link {
-  color: var(--color-turquoise-70);
+  color: var(--color-turquoise-70, #77c5d5);
 }

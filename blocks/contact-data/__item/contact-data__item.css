@@ -1,7 +1,34 @@
 .contact-data__item {
   display: flex;
+  align-items: center;
   gap: 16px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.3;
+  justify-content: flex-end;
+  width: fit-content;
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 1025px) {
+  .contact-data__item {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: unset;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .contact-data__item {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .contact-data__item {
+    font-size: 13px;
+  }
 }
