@@ -1,0 +1,11 @@
+.contacts {
+  margin: 95px auto 0;
+  max-width: 840px;
+  color: var(--color-black);
+}
+
+@media screen and (max-width: 768px) {
+  .contacts {
+    margin-top: 61px;
+  }
+}
