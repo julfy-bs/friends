@@ -56,9 +56,10 @@ function initSwiper(element) {
 carouselElements.forEach(initSwiper);
 
 /* Форма Поддержать Друзей */
-const buttonType = document.querySelector('.support-friends__buttons__type');
+const formSupportFriends = document.querySelector('.support-friends__form');
+const buttonType = formSupportFriends.querySelector('.support-friends__buttons__type');
 const buttonsType = buttonType.querySelectorAll('.support-friends__button');
-const buttonSum = document.querySelector('.support-friends__buttons__sum');
+const buttonSum = formSupportFriends.querySelector('.support-friends__buttons__sum');
 const buttonsSum = buttonSum.querySelectorAll('.support-friends__button');
 
 function choiceButton(button) {
@@ -69,19 +70,16 @@ function changeButton(button) {
   button.classList.remove('support-friends__button__active');
 }
 
-/* Меняется кнопка типа */
-buttonType.addEventListener('click', function(e){
-  for (let i = 0; i < buttonsType.length; i++) {
-   changeButton(buttonsType[i]);
-  }
-  choiceButton(e.target);
-})
+function createListeners(arr) {
+  arr.forEach(function (item) {
+    item.addEventListener('click', function() {
+      arr.forEach(function (btn) {
+        changeButton(btn);
+      })
+      choiceButton(item);
+    })
+  });
+}
 
-
-/* Меняется кнопка суммы */
-buttonSum.addEventListener('click', function(e){
-  for (let i = 0; i < buttonsSum.length; i++) {
-   changeButton(buttonsSum[i]);
-  }
-  choiceButton(e.target);
-})
+createListeners(buttonsType);
+createListeners(buttonsSum);
