@@ -1,0 +1,13 @@
+.footer__section_name_disclaimer {
+  padding-top: 22px;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+@media screen and (max-width: 769px) {
+  .footer__section_name_disclaimer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
