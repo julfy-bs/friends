@@ -1,0 +1,14 @@
+.blog__content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 27px 24px 26px;
+}
+
+@media screen and (max-width: 768px) {
+  .blog__content {
+    gap: 8px;
+    padding: 24px 16px 38px;
+    word-break: break-word;
+  }
+}

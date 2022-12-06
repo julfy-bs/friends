@@ -1,0 +1,9 @@
+.about__list {
+  display: grid;
+  justify-content: center;
+  margin-top: 16px;
+  grid-template-columns: 1fr;
+  margin: 0 auto;
+  max-width: 1032px;
+  padding: 16px 8px;
+}

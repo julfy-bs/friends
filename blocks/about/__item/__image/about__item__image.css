@@ -1,0 +1,8 @@
+@media screen and (max-width: 767px) {
+  .about__item__image {
+    width: 20vw;
+    max-width: 100px;
+    padding-bottom: 10px;
+    z-index: 5;
+  }
+}

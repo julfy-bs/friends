@@ -1,0 +1,13 @@
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 17px;
+  padding-left: 7px;
+}
+
+@media screen and (max-width: 1024px) {
+  .social-media {
+    column-gap: 10px;
+  }
+}

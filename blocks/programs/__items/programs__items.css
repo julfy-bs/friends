@@ -1,0 +1,10 @@
+.programs__items {
+  margin: 56px 0 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .programs__items {
+    margin-top: 24px;
+  }
+}

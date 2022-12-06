@@ -1,0 +1,13 @@
+.checkbox__input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkbox__input:checked ~ .checkbox__checkmark {
+  background-image: url(../../../../images/Checkbox.svg);
+  background-color: var(--color-turquoise-40);
+  border-color: var(--color-turquoise-40);
+}

@@ -1,0 +1,16 @@
+.about__item__develop {
+  justify-self: end;
+  margin-right: 20%;
+}
+
+@media screen and (max-width: 1023px) {
+  .about__item__develop {
+    margin-right: 16%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about__item__develop {
+    margin-right: 8%;
+  }
+}

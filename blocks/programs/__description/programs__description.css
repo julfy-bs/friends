@@ -1,0 +1,13 @@
+.programs__description {
+  margin: 24px 0 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.44;
+  color: var(--color-white);
+}
+
+@media screen and (max-width: 600px) {
+  .programs__description {
+    margin-top: 16px;
+  }
+}

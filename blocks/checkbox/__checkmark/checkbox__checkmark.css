@@ -1,0 +1,13 @@
+.checkbox__checkmark {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  border: 1px solid var(--color-black);
+  background-position: center;
+  box-sizing: border-box;
+}
+
+.checkbox__checkmark:hover {
+  border-color: var(--color-turquoise-40);
+}

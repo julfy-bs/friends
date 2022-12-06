@@ -1,0 +1,8 @@
+.button_type_additional {
+  background-color: var(--color-yellow-70, #eeb250);
+  border-radius: 56px;
+}
+
+.button_type_additional:hover {
+  background-color: var(--color-yellow-60, #e8ad4d);
+}

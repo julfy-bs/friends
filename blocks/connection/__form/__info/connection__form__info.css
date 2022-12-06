@@ -1,0 +1,11 @@
+.connection__form__info {
+  display: flex;
+  gap: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .connection__form__info {
+    flex-direction: column;
+    gap: 16px;
+  }
+}

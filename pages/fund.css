@@ -1,1 +1,42 @@
+@import url('../vendor/normalize.css');
+
+/* variables */
+@import url('../vendor/variables.css');
+
+/* fonts */
+@import url('../vendor/fonts/fonts.css');
+
+/* page */
 @import url('../blocks/page/page.css');
+@import url('../blocks/page/__content/page__content.css');
+@import url('../blocks/page/__title/page__title.css');
+
+/* section-title */
+@import url('../blocks/section-title/section-title.css');
+
+/* button */
+@import url('../blocks/button/button.css');
+@import url('../blocks/button/_type/button_type_primary.css');
+@import url('../blocks/button/_type/button_type_additional.css');
+@import url('../blocks/button/_type/button_type_light.css');
+@import url('../blocks/button/_radius/button_radius_sm.css');
+@import url('../blocks/button/_radius/button_radius_unset.css');
+
+/* checkbox */
+@import url('../blocks/checkbox/checkbox.css');
+@import url('../blocks/checkbox/__input/checkbox__input.css');
+@import url('../blocks/checkbox/__span/checkbox__span.css');
+@import url('../blocks/checkbox/__checkmark/checkbox__checkmark.css');
+
+/* link */
+@import url('../blocks/link/link.css');
+
+/* connection */
+@import url('../blocks/connection/connection.css');
+@import url('../blocks/connection/__text/connection__text.css');
+@import url('../blocks/connection/__form/connection__form.css');
+@import url('../blocks/connection/__form/__info/connection__form__info.css');
+@import url('../blocks/connection/__form/__item/connection__form__item.css');
+@import url('../blocks/connection/__form/_type/connection__form_type_main-text.css');
+
+

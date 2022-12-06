@@ -1,0 +1,9 @@
+.carousel__pagination.swiper-pagination {
+  bottom: -38px;
+}
+
+@media screen and (max-width: 600px) {
+  .carousel__pagination.swiper-pagination {
+    bottom: -32px;
+  }
+}
