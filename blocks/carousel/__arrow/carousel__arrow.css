@@ -28,7 +28,7 @@
 }
 
 .carousel__arrow.swiper-button-disabled {
-  cursor: not-allowed;
+  display: none;
 }
 
 @media screen and (max-width: 600px) {
