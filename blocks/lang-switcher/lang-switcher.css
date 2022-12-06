@@ -1,0 +1,18 @@
+.lang-switcher {
+  display: flex;
+  max-width: 60px;
+  column-gap: 16px;
+}
+
+@media screen and (max-width: 1279px) {
+  .lang-switcher {
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .lang-switcher {
+    font-size: 13px;
+    column-gap: 8px;
+  }
+}

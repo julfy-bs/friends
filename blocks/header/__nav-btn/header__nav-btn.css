@@ -1,0 +1,20 @@
+.header__nav-btn {
+  display: none;
+  margin: 0 0 0 24px;
+  padding: 0;
+  border: none;
+  height: 18px;
+  min-width: 24px;
+  background-image: url(../../../images/nav-menu-icon.svg);
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: center;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .header__nav-btn {
+    display: block;
+  }
+}

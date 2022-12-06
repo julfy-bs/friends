@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
@@ -12,7 +13,54 @@
     <link rel="stylesheet" href="./index.css" />
   </head>
   <body class="page">
-    <header class="page__header"></header>
+    <!--Header starts -->
+    <header class="page__header">
+      <button class="header__nav-btn" type="button" aria-label="Раскрыть меню"></button>
+      <img class="header__logo" src="../images/logo.svg" alt="Логотип фонда" />
+      <nav class="navigation">
+        <ul class="navigation__list page__list">
+          <li>
+            <a class="navigation__link" href="#">Фонд</a>
+          </li>
+          <li>
+            <a class="navigation__link" href="#">Программы</a>
+          </li>
+          <li>
+            <a class="navigation__link" href="#">Для&nbsp;НКО</a>
+          </li>
+          <li>
+            <a class="navigation__link" href="#">Для&nbsp;бизнеса</a>
+          </li>
+          <li>
+            <a class="navigation__link" href="#">Блог</a>
+          </li>
+          <li>
+            <a class="navigation__link" href="#">Партнёры</a>
+          </li>
+          <li>
+            <a class="navigation__link" href="#">Контакты</a>
+          </li>
+        </ul>
+        <ul class="social-media page__list">
+          <li>
+            <a class="social-media__item social-media__item_vk" href="#"> </a>
+          </li>
+          <li>
+            <a class="social-media__item social-media__item_tg" href="#"> </a>
+          </li>
+        </ul>
+        <ul class="lang-switcher page__list">
+          <li class="lang-switcher__item lang-switcher__item_active">
+            <a class="page__link" href="#">Ру</a>
+          </li>
+          <li class="lang-switcher__item">
+            <a class="page__link" href="#">En</a>
+          </li>
+        </ul>
+      </nav>
+      <a class="header__helpfund-link">Помочь&nbsp;фонду</a>
+    </header>
+    <!--Header ends -->
     <main class="page__content">
       <section class="main-carousel carousel" data-carousel="default">
         <div class="swiper">
