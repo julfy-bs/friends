@@ -1,0 +1,5 @@
+.support-friends__button__active {
+  background-color: var(--color-purple-70);
+  color: var(--color-white);
+  z-index: 1;
+}

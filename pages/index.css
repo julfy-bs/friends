@@ -160,3 +160,20 @@
 @import url('../blocks/blog/__news/blog__news.css');
 @import url('../blocks/blog/__news/_size/blog__news_size_large.css');
 @import url('../blocks/blog/__title/blog__title.css');
+
+/* support-friends */
+@import url('../blocks/support-friends/support-friends.css');
+@import url('../blocks/support-friends/__title/support-friends__title.css');
+@import url('../blocks/support-friends/__title-accent/support-friends__title-accent.css');
+@import url('../blocks/support-friends/__form/support-friends__form.css');
+@import url('../blocks/support-friends/__form/__text/support-friends__form__text.css');
+@import url('../blocks/support-friends/__buttons/support-friends__buttons.css');
+@import url('../blocks/support-friends/__buttons/__sum/support-friends__buttons__sum.css');
+@import url('../blocks/support-friends/__buttons/__type/support-friends__buttons__type.css');
+@import url('../blocks/support-friends/__button/support-friends__button.css');
+@import url('../blocks/support-friends/__button/__type/support-friends__button__type__single.css');
+@import url('../blocks/support-friends/__button/__type/support-friends__button__type__cycle.css');
+@import url('../blocks/support-friends/__button/__sum/support-friends__button__sum.css');
+@import url('../blocks/support-friends/__button/__active/support-friends__button__active.css');
+@import url('../blocks/support-friends/__input/support-friends__input.css');
+@import url('../blocks/support-friends/__button/__submit/support-friends__button__submit.css');
