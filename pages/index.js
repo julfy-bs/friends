@@ -14,6 +14,10 @@ const swiperOptions = {
     },
     autoHeight: true,
   },
+  partners: {
+    slidesPerView: 6,
+    spaceBetween: 57,
+  },
 };
 const screenWidth = window.screen.width;
 const carouselElements = document.querySelectorAll('.carousel');
