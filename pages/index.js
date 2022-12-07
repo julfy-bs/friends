@@ -54,3 +54,32 @@ function initSwiper(element) {
 }
 
 carouselElements.forEach(initSwiper);
+
+/* Форма Поддержать Друзей */
+const formSupportFriends = document.querySelector('.support-friends__form');
+const buttonType = formSupportFriends.querySelector('.support-friends__buttons__type');
+const buttonsType = buttonType.querySelectorAll('.support-friends__button');
+const buttonSum = formSupportFriends.querySelector('.support-friends__buttons__sum');
+const buttonsSum = buttonSum.querySelectorAll('.support-friends__button');
+
+function choiceButton(button) {
+  button.classList.add('support-friends__button__active');
+}
+
+function changeButton(button) {
+  button.classList.remove('support-friends__button__active');
+}
+
+function createListeners(arr) {
+  arr.forEach(function (item) {
+    item.addEventListener('click', function() {
+      arr.forEach(function (btn) {
+        changeButton(btn);
+      })
+      choiceButton(item);
+    })
+  });
+}
+
+createListeners(buttonsType);
+createListeners(buttonsSum);
