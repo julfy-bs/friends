@@ -1,6 +1,6 @@
 .prices__list {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 200px);
+  display: flex;
+  flex-wrap: wrap;
   max-width: 1032px;
   margin: 56px auto 0 auto;
   padding: 0;
