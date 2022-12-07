@@ -3,7 +3,7 @@
   max-width: 215px;
   font-size: 18px;
   line-height: 1.33;
-  margin-bottom: 40px;
+  margin: 0;
   z-index: 5;
 }
 
@@ -11,6 +11,5 @@
   .about__item__text {
     max-width: 300px;
     font-size: 14px;
-    margin-bottom: 20px;
   }
 }
