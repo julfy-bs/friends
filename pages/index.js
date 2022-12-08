@@ -14,6 +14,25 @@ const swiperOptions = {
     },
     autoHeight: true,
   },
+  partners: {
+    breakpoints: {
+      300: {
+        slidesPerView: 3,
+      },
+      640: {
+        slidesPerView: 4,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 5,
+        spaceBetween: 40,
+      },
+      1024: {
+        slidesPerView: 6,
+        spaceBetween: 57,
+      },
+    },
+  },
 };
 const screenWidth = window.screen.width;
 const carouselElements = document.querySelectorAll('.carousel');
@@ -72,12 +91,12 @@ function changeButton(button) {
 
 function createListeners(arr) {
   arr.forEach(function (item) {
-    item.addEventListener('click', function() {
+    item.addEventListener('click', function () {
       arr.forEach(function (btn) {
         changeButton(btn);
-      })
+      });
       choiceButton(item);
-    })
+    });
   });
 }
 

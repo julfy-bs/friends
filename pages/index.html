@@ -280,23 +280,27 @@
         <h2 class="page__title section-title">Наши ценности</h2>
         <ul class="prices__list">
           <li class="price">
-            <img class="price__image" src="../images/education.svg" alt="Человек в академической шапочке"/>
+            <img
+              class="price__image"
+              src="../images/education.svg"
+              alt="Человек в академической шапочке"
+            />
             <p class="price__text">Образование и профессионализм</p>
           </li>
           <li class="price">
-            <img class="price__image" src="../images/planning.svg" alt="Список выполненных задач"/>
+            <img class="price__image" src="../images/planning.svg" alt="Список выполненных задач" />
             <p class="price__text">Планирование и устойчивость</p>
           </li>
           <li class="price">
-            <img class="price__image" src="../images/systems.svg" alt="Пазлы"/>
+            <img class="price__image" src="../images/systems.svg" alt="Пазлы" />
             <p class="price__text">Системный подход к решениям</p>
           </li>
           <li class="price">
-            <img class="price__image" src="../images/partnership.svg" alt="Рукопожатие"/>
+            <img class="price__image" src="../images/partnership.svg" alt="Рукопожатие" />
             <p class="price__text">Объединение и партнерство</p>
           </li>
           <li class="price">
-            <img class="price__image" src="../images/measurability.svg" alt="Росток в ладони"/>
+            <img class="price__image" src="../images/measurability.svg" alt="Росток в ладони" />
             <p class="price__text">Измеримый эффект</p>
           </li>
         </ul>
@@ -479,6 +483,63 @@
           </form>
         </div>
       </section>
+      <section class="partners">
+        <h2 class="partners__title">Нам доверяют</h2>
+        <div class="partners__carousel carousel" data-carousel="partners">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="/images/partners/ey.jpg" alt="Логотип ЕУ" class="partners__image" />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="/images/partners/roskongress.jpg"
+                  alt="Логотип Росконгресс"
+                  class="partners__image"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="/images/partners/mastercard.jpg"
+                  alt="Логотип Мастеркард"
+                  class="partners__image"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="/images/partners/indigo.jpg"
+                  alt="Логотип Отель Индиго"
+                  class="partners__image"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img src="/images/partners/bmw.jpg" alt="Логотип БМВ" class="partners__image" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/images/partners/kpmg.jpg" alt="Логотип КПМГ" class="partners__image" />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="/images/partners/alfa.jpg"
+                  alt="Логотип Альфа Приват"
+                  class="partners__image"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img src="/images/partners/bosco.jpg" alt="Логотип Боско" class="partners__image" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/images/partners/vse.jpg" alt="Логотип ВШЭ" class="partners__image" />
+              </div>
+              <div class="swiper-slide">
+                <a href="#" class="button button_type_light partners__link">Смотреть все</a>
+              </div>
+            </div>
+          </div>
+          <button class="carousel__arrow carousel__arrow_type_prev"></button>
+          <button class="carousel__arrow carousel__arrow_type_next"></button>
+        </div>
+      </section>
       <section class="contacts">
         <h2 class="section-title page__title">Остались вопросы? Пишите и&nbsp;звоните нам</h2>
         <a class="contacts__email page__link" href="mailto:friends@friends-foundation.com"
@@ -487,20 +548,55 @@
         <p class="contacts__phone page__paragraph">+7 977 277-07-17</p>
       </section>
       <section class="support-friends">
-        <h2 class="section-title page__title support-friends__title">Поддержите «Друзей» или станьте <span class="support-friends__title-accent">нашим партнером</span></h2>
+        <h2 class="section-title page__title support-friends__title">
+          Поддержите «Друзей» или станьте
+          <span class="support-friends__title-accent">нашим партнером</span>
+        </h2>
         <form class="support-friends__form">
           <p class="support-friends__form__text">Поддержать Друзей:</p>
           <div class="support-friends__buttons support-friends__buttons__type">
-            <button class="button button_radius_sm button_type_light support-friends__button support-friends__button__type__single support-friends__button__active" type="button" active>РАЗОВОЕ</button>
-            <button class="button button_radius_sm button_type_light support-friends__button support-friends__button__type__cycle" type="button">ЕЖЕМЕСЯЧНОЕ</button>
+            <button
+              class="button button_radius_sm button_type_light support-friends__button support-friends__button__type__single support-friends__button__active"
+              type="button"
+              active
+            >
+              РАЗОВОЕ
+            </button>
+            <button
+              class="button button_radius_sm button_type_light support-friends__button support-friends__button__type__cycle"
+              type="button"
+            >
+              ЕЖЕМЕСЯЧНОЕ
+            </button>
           </div>
           <div class="support-friends__buttons support-friends__buttons__sum">
-            <button class="button button_radius_unset button_type_light support-friends__button support-friends__button__sum support-friends__button__active" type="button" active>5 000</button>
-            <button class="button button_radius_unset button_type_light support-friends__button support-friends__button__sum" type="button">10 000</button>
-            <button class="button button_radius_unset button_type_light support-friends__button support-friends__button__sum" type="button">50 000</button>
+            <button
+              class="button button_radius_unset button_type_light support-friends__button support-friends__button__sum support-friends__button__active"
+              type="button"
+              active
+            >
+              5 000
+            </button>
+            <button
+              class="button button_radius_unset button_type_light support-friends__button support-friends__button__sum"
+              type="button"
+            >
+              10 000
+            </button>
+            <button
+              class="button button_radius_unset button_type_light support-friends__button support-friends__button__sum"
+              type="button"
+            >
+              50 000
+            </button>
           </div>
           <input class="support-friends__input" type="text" placeholder="Другая&nbsp;сумма" />
-          <button class="button button_radius_sm button_type_additional support-friends__button__submit" type="submit">Поддержать фонд</button>
+          <button
+            class="button button_radius_sm button_type_additional support-friends__button__submit"
+            type="submit"
+          >
+            Поддержать фонд
+          </button>
         </form>
       </section>
     </main>

@@ -237,7 +237,6 @@
 @import url('../blocks/rights/__description/rights__description.css');
 @import url('../blocks/rights/__image/rights__image.css');
 
-
 /* support-friends */
 @import url('../blocks/support-friends/support-friends.css');
 @import url('../blocks/support-friends/__title/support-friends__title.css');
@@ -254,3 +253,10 @@
 @import url('../blocks/support-friends/__button/__active/support-friends__button__active.css');
 @import url('../blocks/support-friends/__input/support-friends__input.css');
 @import url('../blocks/support-friends/__button/__submit/support-friends__button__submit.css');
+
+/* partners */
+@import url('../blocks/partners/partners.css');
+@import url('../blocks/partners/__carousel/partners__carousel.css');
+@import url('../blocks/partners/__image/partners__image.css');
+@import url('../blocks/partners/__link/partners__link.css');
+@import url('../blocks/partners/__title/partners__title.css');
