@@ -1,0 +1,12 @@
+.more-help__image {
+  display: block;
+  width: 100%;
+  max-width: 416px;
+}
+
+@media screen and (max-width: 768px) {
+  .more-help__image {
+    grid-area: image;
+    max-width: 100%;
+  }
+}

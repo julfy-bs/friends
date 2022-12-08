@@ -1,0 +1,7 @@
+.more-help__social {
+  transition: opacity 0.3s ease;
+}
+
+.more-help__social:hover {
+  opacity: 0.6;
+}

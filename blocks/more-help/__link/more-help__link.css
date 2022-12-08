@@ -1,0 +1,15 @@
+.more-help__link {
+  display: block;
+  max-width: max-content;
+  margin-top: 16px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.5;
+  color: var(--color-turquoise-40);
+  transition: opacity 0.3s ease;
+}
+
+.more-help__link:hover {
+  opacity: 0.6;
+}
