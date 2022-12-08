@@ -91,12 +91,12 @@ function changeButton(button) {
 
 function createListeners(arr) {
   arr.forEach(function (item) {
-    item.addEventListener('click', function() {
+    item.addEventListener('click', function () {
       arr.forEach(function (btn) {
         changeButton(btn);
-      })
+      });
       choiceButton(item);
-    })
+    });
   });
 }
 
