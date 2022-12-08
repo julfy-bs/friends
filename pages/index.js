@@ -15,8 +15,23 @@ const swiperOptions = {
     autoHeight: true,
   },
   partners: {
-    slidesPerView: 6,
-    spaceBetween: 57,
+    breakpoints: {
+      300: {
+        slidesPerView: 3,
+      },
+      640: {
+        slidesPerView: 4,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 5,
+        spaceBetween: 40,
+      },
+      1024: {
+        slidesPerView: 6,
+        spaceBetween: 57,
+      },
+    },
   },
 };
 const screenWidth = window.screen.width;

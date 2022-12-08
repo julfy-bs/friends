@@ -256,3 +256,7 @@
 
 /* partners */
 @import url('../blocks/partners/partners.css');
+@import url('../blocks/partners/__carousel/partners__carousel.css');
+@import url('../blocks/partners/__image/partners__image.css');
+@import url('../blocks/partners/__link/partners__link.css');
+@import url('../blocks/partners/__title/partners__title.css');
