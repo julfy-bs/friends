@@ -81,3 +81,18 @@
 @import url('../blocks/rights/rights.css');
 @import url('../blocks/rights/__description/rights__description.css');
 @import url('../blocks/rights/__image/rights__image.css');
+
+/* more help */
+@import url('../blocks/more-help/more-help.css');
+@import url('../blocks/more-help/__button/more-help__button.css');
+@import url('../blocks/more-help/__container/more-help__container.css');
+@import url('../blocks/more-help/__image/more-help__image.css');
+@import url('../blocks/more-help/__info/more-help__info.css');
+@import url('../blocks/more-help/__info-heading/more-help__info-heading.css');
+@import url('../blocks/more-help/__link/more-help__link.css');
+@import url('../blocks/more-help/__social/more-help__social.css');
+@import url('../blocks/more-help/__social-image/more-help__social-image.css');
+@import url('../blocks/more-help/__socials/more-help__socials.css');
+@import url('../blocks/more-help/__text/more-help__text.css');
+@import url('../blocks/more-help/__title/more-help__title.css');
+@import url('../blocks/more-help/__title-accent/more-help__title-accent.css');
