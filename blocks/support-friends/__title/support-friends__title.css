@@ -1,14 +1,15 @@
 .support-friends__title {
   font-size: 4.8vw;
   line-height: 1.07;
-  max-width: 30vw;
+  flex: 0 0 370px;
   text-align: start;
   color: var(--color-white);
 }
 
 @media screen and (max-width: 1023px) {
   .support-friends__title {
-    max-width: 82vw;
+    flex: 1;
+    margin: auto 24px;
     font-size: 7.2vw;
     line-height: 1.4;
   }
