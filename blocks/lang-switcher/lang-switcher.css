@@ -16,3 +16,10 @@
     column-gap: 8px;
   }
 }
+
+@media screen and (max-width: 860px) {
+  .lang-switcher {
+    column-gap: 5px;
+    padding: 0 5px;
+  }
+}
