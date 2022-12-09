@@ -10,6 +10,7 @@
   .programs__item {
     min-height: unset;
     padding: 60px;
+    justify-content: center;
   }
 }
 

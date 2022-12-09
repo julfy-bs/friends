@@ -1,0 +1,13 @@
+.more-help {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1080px;
+  margin: 96px auto 0;
+  padding: 0 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .more-help {
+    margin-top: 56px;
+  }
+}

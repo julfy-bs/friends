@@ -8,7 +8,7 @@
   --color-grey-90: #f8f8f8;
   --color-grey-70: #e3e7eb;
   --color-grey-60: #c5c9cd;
-  --color-grey-50: #999999;
+  --color-grey-50: #999;
   --color-grey-40: #6b6b6b;
   --color-grey-30: #424242;
   --color-grey-20: #302f2d;
@@ -30,6 +30,6 @@
   --color-yellow-70: #eeb250;
   --color-yellow-60: #e8ad4d;
   /* Page */
-  --page-min-width: 320px;
+  --page-min-width: 375px;
   --page-max-width: 1280px;
 }

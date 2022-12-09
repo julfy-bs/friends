@@ -1,5 +1,11 @@
 .about__figure_position_third {
   z-index: -1;
-  top: 404px;
+  bottom: 362px;
   right: 0px;
+}
+
+@media screen and (max-width: 769px) {
+  .about__figure_position_third {
+    bottom: 180px;
+  }
 }

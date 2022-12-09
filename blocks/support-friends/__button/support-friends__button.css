@@ -1,0 +1,11 @@
+.support-friends__button {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.67;
+}
+
+@media screen and (max-width: 1023px) {
+  .support-friends__button {
+    line-height: 1.25;
+  }
+}

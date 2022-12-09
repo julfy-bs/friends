@@ -1,0 +1,20 @@
+.more-help__container {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 72px;
+}
+
+.more-help__container:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .more-help__container {
+    display: grid;
+    grid-template-areas: 'info' 'image';
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+}

@@ -1,0 +1,7 @@
+.rights__image {
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  width: 36px;
+  height: 31px;
+}

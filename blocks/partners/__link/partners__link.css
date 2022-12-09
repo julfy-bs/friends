@@ -1,0 +1,16 @@
+.partners__link {
+  box-sizing: border-box;
+  text-decoration: none;
+  width: 124px;
+  height: 124px;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+@media screen and (max-width: 500px) {
+  .partners__link {
+    width: 80px;
+    height: 80px;
+    font-size: 12px;
+  }
+}
