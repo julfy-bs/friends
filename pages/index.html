@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
@@ -9,60 +8,165 @@
     />
     <meta content="ie=edge" http-equiv="X-UA-Compatible" />
     <title>Главная - Друзья</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="./index.css" />
+    <link href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="./index.css" rel="stylesheet" />
   </head>
   <body class="page">
-    <!--Header starts -->
-    <header class="page__header">
+    <header class="page__header header">
       <div class="header__wrapper">
-        <button class="header__nav-btn" type="button" aria-label="Раскрыть меню"></button>
-        <img class="header__logo" src="../images/logo.svg" alt="Логотип фонда" />
-        <nav class="navigation">
-          <ul class="navigation__list page__list">
-            <li>
-              <a class="navigation__link" href="#">Фонд</a>
-            </li>
-            <li>
-              <a class="navigation__link" href="#">Программы</a>
-            </li>
-            <li>
-              <a class="navigation__link" href="#">Для&nbsp;НКО</a>
-            </li>
-            <li>
-              <a class="navigation__link" href="#">Для&nbsp;бизнеса</a>
-            </li>
-            <li>
-              <a class="navigation__link" href="#">Блог</a>
-            </li>
-            <li>
-              <a class="navigation__link" href="#">Партнёры</a>
-            </li>
-            <li>
-              <a class="navigation__link" href="#">Контакты</a>
-            </li>
-          </ul>
-          <ul class="social-media page__list">
-            <li>
-              <a class="social-media__item social-media__item_vk" href="#"> </a>
-            </li>
-            <li>
-              <a class="social-media__item social-media__item_tg" href="#"> </a>
-            </li>
-          </ul>
-          <ul class="lang-switcher page__list">
-            <li class="lang-switcher__item lang-switcher__item_active">
-              <a class="page__link page__link_active" href="#">Ру</a>
-            </li>
-            <li class="lang-switcher__item">
-              <a class="page__link" href="#">En</a>
-            </li>
-          </ul>
-        </nav>
-        <a class="header__helpfund-link page__link">Помочь&nbsp;фонду</a>
+        <div class="header__content">
+          <button
+            aria-label="Открыть меню"
+            class="page__button hamburger hamburger_role_drop-menu"
+            type="button"
+          >
+            <span class="hamburger__container">
+              <span class="hamburger__line hamburger__line_position_top"></span>
+              <span class="hamburger__line hamburger__line_position_middle"></span>
+              <span class="hamburger__line hamburger__line_position_bottom"></span>
+            </span>
+          </button>
+          <button
+            aria-label="Открыть меню"
+            class="page__button hamburger hamburger_role_menu"
+            type="button"
+          >
+            <span class="hamburger__container">
+              <span class="hamburger__line hamburger__line_position_top"></span>
+              <span class="hamburger__line hamburger__line_position_middle"></span>
+              <span class="hamburger__line hamburger__line_position_bottom"></span>
+            </span>
+          </button>
+          <img
+            alt="Логотип Фонд Друзья"
+            class="page__image logo logo_position_header"
+            src="../images/logo-position-header.svg"
+          />
+          <div class="header__links">
+            <nav>
+              <ul class="page__list navigation navigation_position_header">
+                <li>
+                  <a
+                    class="page__link navigation__link navigation__link_weight_regular navigation__link_color_white"
+                    href="#"
+                    >Фонд</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="page__link navigation__link navigation__link_weight_regular navigation__link_color_white"
+                    href="#"
+                    >Программы</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="page__link navigation__link navigation__link_weight_regular navigation__link_color_white"
+                    href="#"
+                    >Для&#160;НКО</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="page__link navigation__link navigation__link_weight_regular navigation__link_color_white"
+                    href="#"
+                    >Для&#160;бизнеса</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="page__link navigation__link navigation__link_weight_regular navigation__link_color_white"
+                    href="#"
+                    >Блог</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="page__link navigation__link navigation__link_weight_regular navigation__link_color_white"
+                    href="#"
+                    >Партнёры</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="page__link navigation__link navigation__link_weight_regular navigation__link_color_white"
+                    href="#"
+                    >Контакты</a
+                  >
+                </li>
+              </ul>
+            </nav>
+            <ul class="page__list socials socials_position_header">
+              <li>
+                <a class="page__link socials__item" href="#">
+                  <svg class="socials__icon">
+                    <use xlink:href="../images/vk.svg#vk"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="page__link socials__item" href="#">
+                  <svg class="socials__icon">
+                    <use xlink:href="../images/telegram.svg#telegram"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+            <ul class="page__list lang-switcher lang-switcher_position_header">
+              <li>
+                <a class="page__link lang-switcher__link lang-switcher__link_active" href="#">Ру</a>
+              </li>
+              <li>
+                <a class="page__link lang-switcher__link" href="#">En</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <a class="page__link button button_type_additional button_radius_unset button_padding_xl"
+          >Помочь&nbsp;фонду</a
+        >
+      </div>
+      <div class="drop-menu">
+        <div class="drop-menu__wrapper">
+          <nav class="drop-menu__content">
+            <ul class="page__list drop-menu__list">
+              <li class="drop-menu__item">
+                <a href="#" class="page__link drop-menu__link">О фонде «Друзья»</a>
+                <p class="page__paragraph drop-menu__description">История фонда, миссия</p>
+              </li>
+              <li class="drop-menu__item">
+                <a href="#" class="page__link drop-menu__link">Структура фонда</a>
+                <p class="page__paragraph drop-menu__description">
+                  Экспертный совет, Попечительский совет, Правление, Команда
+                </p>
+              </li>
+              <li class="drop-menu__item">
+                <a href="#" class="page__link drop-menu__link">Документы</a>
+                <p class="page__paragraph drop-menu__description">
+                  Оферта, Реквизиты, Устав Договор пожертвования
+                </p>
+              </li>
+              <li class="drop-menu__item">
+                <a href="#" class="page__link drop-menu__link">Отчёты</a>
+                <p class="page__paragraph drop-menu__description">Аудит, Годовой отчёт</p>
+              </li>
+              <li class="drop-menu__item">
+                <a href="#" class="page__link drop-menu__link">FAQ</a>
+                <p class="page__paragraph drop-menu__description">
+                  Ответы на часто задаваемые вопросы
+                </p>
+              </li>
+              <li class="drop-menu__item">
+                <a href="#" class="page__link drop-menu__link">СМИ о нас</a>
+                <p class="page__paragraph drop-menu__description">
+                  Что пишут о нас в сети интернета
+                </p>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
-    <!--Header ends -->
     <main class="page__content">
       <section class="main-carousel carousel" data-carousel="default">
         <div class="swiper">
@@ -70,9 +174,9 @@
             <div class="swiper-slide">
               <div class="main-carousel__slide">
                 <img
+                  alt="Коллектив фонда Дружба"
                   class="main-carousel__image"
                   src="/images/slide-1.jpg"
-                  alt="Коллектив фонда Дружба"
                 />
                 <div class="main-carousel__content main-carousel__content_background">
                   <h1 class="main-carousel__title">
@@ -89,7 +193,7 @@
             </div>
             <div class="swiper-slide">
               <div class="main-carousel__slide">
-                <img class="main-carousel__image" src="/images/slide-2.jpg" alt="Выпускной" />
+                <img alt="Выпускной" class="main-carousel__image" src="/images/slide-2.jpg" />
                 <div class="main-carousel__content">
                   <h2 class="main-carousel__title">
                     Создаем настоящую<span class="main-carousel__title-accent">школу, институт</span
@@ -107,7 +211,7 @@
             </div>
             <div class="swiper-slide">
               <div class="main-carousel__slide">
-                <img class="main-carousel__image" src="/images/slide-3.jpg" alt="Ноутбук" />
+                <img alt="Ноутбук" class="main-carousel__image" src="/images/slide-3.jpg" />
                 <div class="main-carousel__content">
                   <h2 class="main-carousel__title main-carousel__title_width_sm">
                     Профессионализм и опыт<span class="main-carousel__title-accent">в дар</span>
@@ -142,32 +246,32 @@
         <ul class="page__list about__list">
           <li class="about__item about__item__found about__figure_color_turquoise">
             <img
-              class="about__item__image about__item__image__lamp"
               alt="Лампа"
+              class="about__item__image about__item__image__lamp"
               src="../images/Lamp.svg"
             />
             <p class="about__item__text">Находим интеллектальных волонтеров</p>
           </li>
           <li class="about__item about__item__study about__figure_color_blue">
             <img
-              class="about__item__image about__item__image__book"
               alt="Книга"
+              class="about__item__image about__item__image__book"
               src="../images/Book.svg"
             />
             <p class="about__item__text">Обучаем филантропии</p>
           </li>
           <li class="about__item about__item__develop about__figure_color_pink">
             <img
-              class="about__item__image about__item__image__graph"
               alt="График"
+              class="about__item__image about__item__image__graph"
               src="../images/Graph.svg"
             />
             <p class="about__item__text">Помогаем развиваться некоммерческим организациям</p>
           </li>
           <li class="about__item about__item__evolution about__figure_color_yellow">
             <img
-              class="about__item__image about__item__image__case"
               alt="Сумка"
+              class="about__item__image about__item__image__case"
               src="../images/Case.svg"
             />
             <p class="about__item__text">Помогаем бизнесу становиться социально ответственным</p>
@@ -226,9 +330,9 @@
             <div class="programs__content">
               <div class="programs__top">
                 <img
+                  alt="Логотип ProCharity"
                   class="programs__logo programs__logo_name_procharity"
                   src="/images/programs/icon-procharity.svg"
-                  alt="Логотип ProCharity"
                 />
                 <p class="programs__name">Программа</p>
               </div>
@@ -236,17 +340,17 @@
               <p class="programs__description">
                 Скорая интеллектуальная помощь для благотворительных фондов
               </p>
-              <a href="#" class="programs__link">О программе</a>
+              <a class="programs__link" href="#">О программе</a>
             </div>
-            <img class="programs__image" src="/images/programs/procharity.png" alt="Студенты" />
+            <img alt="Студенты" class="programs__image" src="/images/programs/procharity.png" />
           </li>
           <li class="programs__item programs__item_color_blue programs__item_direction_left">
             <div class="programs__content">
               <div class="programs__top">
                 <img
+                  alt="Логотип МШПФ"
                   class="programs__logo programs__logo_name_school"
                   src="/images/programs/icon-school.svg"
-                  alt="Логотип МШПФ"
                 />
                 <p class="programs__name">Программа</p>
               </div>
@@ -254,17 +358,17 @@
               <p class="programs__description">
                 Повышение квалификации и профессионализма сотрудников НКО
               </p>
-              <a href="#" class="programs__link">О программе</a>
+              <a class="programs__link" href="#">О программе</a>
             </div>
-            <img class="programs__image" src="/images/programs/school.png" alt="Студенты" />
+            <img alt="Студенты" class="programs__image" src="/images/programs/school.png" />
           </li>
           <li class="programs__item programs__item_color_pink">
             <div class="programs__content">
               <div class="programs__top">
                 <img
+                  alt="Логотип Команды профессионалов"
                   class="programs__logo programs__logo_name_command"
                   src="/images/programs/icon-command.svg"
-                  alt="Логотип Команды профессионалов"
                 />
                 <p class="programs__name">Программа</p>
               </div>
@@ -272,9 +376,9 @@
               <p class="programs__description">
                 Стратегическое развитие и менторская поддержка социальных проектов и НКО
               </p>
-              <a href="#" class="programs__link">О программе</a>
+              <a class="programs__link" href="#">О программе</a>
             </div>
-            <img class="programs__image" src="/images/programs/command.png" alt="Команда" />
+            <img alt="Команда" class="programs__image" src="/images/programs/command.png" />
           </li>
         </ul>
       </section>
@@ -283,26 +387,26 @@
         <ul class="prices__list">
           <li class="price">
             <img
+              alt="Человек в академической шапочке"
               class="price__image"
               src="../images/education.svg"
-              alt="Человек в академической шапочке"
             />
             <p class="price__text">Образование и профессионализм</p>
           </li>
           <li class="price">
-            <img class="price__image" src="../images/planning.svg" alt="Список выполненных задач" />
+            <img alt="Список выполненных задач" class="price__image" src="../images/planning.svg" />
             <p class="price__text">Планирование и устойчивость</p>
           </li>
           <li class="price">
-            <img class="price__image" src="../images/systems.svg" alt="Пазлы" />
+            <img alt="Пазлы" class="price__image" src="../images/systems.svg" />
             <p class="price__text">Системный подход к решениям</p>
           </li>
           <li class="price">
-            <img class="price__image" src="../images/partnership.svg" alt="Рукопожатие" />
+            <img alt="Рукопожатие" class="price__image" src="../images/partnership.svg" />
             <p class="price__text">Объединение и партнерство</p>
           </li>
           <li class="price">
-            <img class="price__image" src="../images/measurability.svg" alt="Росток в ладони" />
+            <img alt="Росток в ладони" class="price__image" src="../images/measurability.svg" />
             <p class="price__text">Измеримый эффект</p>
           </li>
         </ul>
@@ -315,9 +419,9 @@
               <div class="swiper-slide">
                 <div class="our-friends__slide">
                   <img
+                    alt="Чулпан Хаматова"
                     class="our-friends__image"
                     src="/images/friends/hamatova.jpg"
-                    alt="Чулпан Хаматова"
                   />
                   <figure class="our-friends__figure">
                     <blockquote class="our-friends__blockquote">
@@ -334,9 +438,9 @@
               <div class="swiper-slide">
                 <div class="our-friends__slide our-friends__slide_direction_reverse">
                   <img
+                    alt="Чулпан Хаматова"
                     class="our-friends__image"
                     src="/images/friends/khabenskii.jpg"
-                    alt="Чулпан Хаматова"
                   />
                   <figure class="our-friends__figure">
                     <blockquote class="our-friends__blockquote">
@@ -353,9 +457,9 @@
               <div class="swiper-slide">
                 <div class="our-friends__slide">
                   <img
+                    alt="Ингеборга Дапкунайте"
                     class="our-friends__image"
                     src="/images/friends/dapkunaite.jpg"
-                    alt="Ингеборга Дапкунайте"
                   />
                   <figure class="our-friends__figure">
                     <blockquote class="our-friends__blockquote">
@@ -373,9 +477,9 @@
               <div class="swiper-slide">
                 <div class="our-friends__slide our-friends__slide_direction_reverse">
                   <img
+                    alt="Александр Петров"
                     class="our-friends__image"
                     src="/images/friends/petrov.jpg"
-                    alt="Александр Петров"
                   />
                   <figure class="our-friends__figure">
                     <blockquote class="our-friends__blockquote">
@@ -402,8 +506,8 @@
           <div class="swiper">
             <div class="swiper-wrapper blog__items">
               <div class="swiper-slide blob__news blog__news_size_large">
-                <a href="#" class="blog__link">
-                  <img class="blog__image" src="/images/blog/1.jpg" alt="Пакеты с продуктами" />
+                <a class="blog__link" href="#">
+                  <img alt="Пакеты с продуктами" class="blog__image" src="/images/blog/1.jpg" />
                   <div class="blog__content">
                     <p class="blog__date">7 Июля 2021</p>
                     <h3 class="blog__title">Выпускной МШПФ 3.0</h3>
@@ -415,8 +519,8 @@
                 </a>
               </div>
               <div class="swiper-slide blob__news">
-                <a href="#" class="blog__link">
-                  <img class="blog__image" src="/images/blog/2.jpg" alt="Выпускной" />
+                <a class="blog__link" href="#">
+                  <img alt="Выпускной" class="blog__image" src="/images/blog/2.jpg" />
                   <div class="blog__content">
                     <p class="blog__date">7 Июля 2021</p>
                     <h3 class="blog__title">Выпускной МШПФ 3.0</h3>
@@ -427,8 +531,8 @@
                 </a>
               </div>
               <div class="swiper-slide blob__news">
-                <a href="#" class="blog__link">
-                  <img class="blog__image" src="/images/blog/3.jpg" alt="Витрина" />
+                <a class="blog__link" href="#">
+                  <img alt="Витрина" class="blog__image" src="/images/blog/3.jpg" />
                   <div class="blog__content">
                     <p class="blog__date">7 Июля 2021</p>
                     <h3 class="blog__title">Благотворительность в России</h3>
@@ -441,8 +545,8 @@
                 </a>
               </div>
               <div class="swiper-slide blob__news">
-                <a href="#" class="blog__link">
-                  <img class="blog__image" src="/images/blog/4.jpg" alt="Разгрузка товара" />
+                <a class="blog__link" href="#">
+                  <img alt="Разгрузка товара" class="blog__image" src="/images/blog/4.jpg" />
                   <div class="blog__content">
                     <p class="blog__date">7 Июля 2021</p>
                     <h3 class="blog__title">Кому жертвуют в России?</h3>
@@ -453,8 +557,8 @@
                 </a>
               </div>
               <div class="swiper-slide blob__news">
-                <a href="#" class="blog__link">
-                  <img class="blog__image" src="/images/blog/5.jpg" alt="Фото с мероприятия" />
+                <a class="blog__link" href="#">
+                  <img alt="Фото с мероприятия" class="blog__image" src="/images/blog/5.jpg" />
                   <div class="blog__content">
                     <p class="blog__date">7 Июля 2021</p>
                     <h3 class="blog__title">День рождения фонда «Друзья»</h3>
@@ -466,7 +570,7 @@
           </div>
           <div class="swiper-pagination"></div>
         </div>
-        <a href="#" class="blog__button button button_type_light">Перейти в блог</a>
+        <a class="blog__button button button_type_light" href="#">Перейти в блог</a>
       </section>
       <section class="subscription">
         <div class="subscription__wrapper">
@@ -478,7 +582,7 @@
           </div>
           <form class="subscription__form">
             <div class="subscription__input-wrapper">
-              <input class="subscription__input" type="email" placeholder="Введите ваш e-mail" />
+              <input class="subscription__input" placeholder="Введите ваш e-mail" type="email" />
               <button class="subscription__clear" type="reset"></button>
             </div>
             <button class="subscription__button" type="submit">Подписаться</button>
@@ -491,50 +595,50 @@
           <div class="swiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                <img src="/images/partners/ey.jpg" alt="Логотип ЕУ" class="partners__image" />
+                <img alt="Логотип ЕУ" class="partners__image" src="/images/partners/ey.jpg" />
               </div>
               <div class="swiper-slide">
                 <img
-                  src="/images/partners/roskongress.jpg"
                   alt="Логотип Росконгресс"
                   class="partners__image"
+                  src="/images/partners/roskongress.jpg"
                 />
               </div>
               <div class="swiper-slide">
                 <img
-                  src="/images/partners/mastercard.jpg"
                   alt="Логотип Мастеркард"
                   class="partners__image"
+                  src="/images/partners/mastercard.jpg"
                 />
               </div>
               <div class="swiper-slide">
                 <img
-                  src="/images/partners/indigo.jpg"
                   alt="Логотип Отель Индиго"
                   class="partners__image"
+                  src="/images/partners/indigo.jpg"
                 />
               </div>
               <div class="swiper-slide">
-                <img src="/images/partners/bmw.jpg" alt="Логотип БМВ" class="partners__image" />
+                <img alt="Логотип БМВ" class="partners__image" src="/images/partners/bmw.jpg" />
               </div>
               <div class="swiper-slide">
-                <img src="/images/partners/kpmg.jpg" alt="Логотип КПМГ" class="partners__image" />
+                <img alt="Логотип КПМГ" class="partners__image" src="/images/partners/kpmg.jpg" />
               </div>
               <div class="swiper-slide">
                 <img
-                  src="/images/partners/alfa.jpg"
                   alt="Логотип Альфа Приват"
                   class="partners__image"
+                  src="/images/partners/alfa.jpg"
                 />
               </div>
               <div class="swiper-slide">
-                <img src="/images/partners/bosco.jpg" alt="Логотип Боско" class="partners__image" />
+                <img alt="Логотип Боско" class="partners__image" src="/images/partners/bosco.jpg" />
               </div>
               <div class="swiper-slide">
-                <img src="/images/partners/vse.jpg" alt="Логотип ВШЭ" class="partners__image" />
+                <img alt="Логотип ВШЭ" class="partners__image" src="/images/partners/vse.jpg" />
               </div>
               <div class="swiper-slide">
-                <a href="#" class="button button_type_light partners__link">Смотреть все</a>
+                <a class="button button_type_light partners__link" href="#">Смотреть все</a>
               </div>
             </div>
           </div>
@@ -558,9 +662,9 @@
           <p class="support-friends__form__text">Поддержать Друзей:</p>
           <div class="support-friends__buttons support-friends__buttons__type">
             <button
+              active
               class="button button_radius_sm button_type_light support-friends__button support-friends__button__type__single support-friends__button__active"
               type="button"
-              active
             >
               РАЗОВОЕ
             </button>
@@ -573,9 +677,9 @@
           </div>
           <div class="support-friends__buttons support-friends__buttons__sum">
             <button
+              active
               class="button button_radius_unset button_type_light support-friends__button support-friends__button__sum support-friends__button__active"
               type="button"
-              active
             >
               5 000
             </button>
@@ -592,7 +696,7 @@
               50 000
             </button>
           </div>
-          <input class="support-friends__input" type="text" placeholder="Другая&nbsp;сумма" />
+          <input class="support-friends__input" placeholder="Другая&nbsp;сумма" type="text" />
           <button
             class="button button_radius_sm button_type_additional support-friends__button__submit"
             type="submit"
@@ -601,65 +705,161 @@
           </button>
         </form>
       </section>
+      <div class="popup popup_role_burger">
+        <div class="popup__wrapper popup__wrapper_size_screen">
+          <button
+            aria-label="Закрыть"
+            class="page__button popup__close popup__close_position_left"
+            type="button"
+          ></button>
+          <div class="popup__content">
+            <nav>
+              <ul class="page__list navigation navigation_position_menu">
+                <li>
+                  <a
+                    class="page__link navigation__link navigation__link_weight_regular navigation__link_color_black"
+                    href="#"
+                    >Фонд</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="page__link navigation__link navigation__link_weight_regular navigation__link_color_black"
+                    href="#"
+                    >Программы</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="page__link navigation__link navigation__link_weight_regular navigation__link_color_black"
+                    href="#"
+                    >Для&#160;НКО</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="page__link navigation__link navigation__link_weight_regular navigation__link_color_black"
+                    href="#"
+                    >Для&#160;бизнеса</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="page__link navigation__link navigation__link_weight_regular navigation__link_color_black"
+                    href="#"
+                    >Блог</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="page__link navigation__link navigation__link_weight_regular navigation__link_color_black"
+                    href="#"
+                    >Партнёры</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="page__link navigation__link navigation__link_weight_regular navigation__link_color_black"
+                    href="#"
+                    >Контакты</a
+                  >
+                </li>
+              </ul>
+            </nav>
+            <div class="popup__group">
+              <ul class="page__list lang-switcher lang-switcher_position_menu">
+                <li>
+                  <a class="page__link lang-switcher__link lang-switcher__link_active" href="#"
+                    >Ру</a
+                  >
+                </li>
+                <li>
+                  <a class="page__link lang-switcher__link" href="#">En</a>
+                </li>
+              </ul>
+              <ul class="page__list socials socials_position_menu">
+                <li>
+                  <a class="page__link socials__item" href="#">
+                    <svg class="socials__icon">
+                      <use xlink:href="../images/vk.svg#vk"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a class="page__link socials__item" href="#">
+                    <svg class="socials__icon">
+                      <use xlink:href="../images/telegram.svg#telegram"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
     <footer class="page__footer footer footer_size_xl">
       <div class="footer__wrapper">
         <div class="footer__section footer__section_name_content">
-          <img alt="Логотип Фонд Друзья" class="logo" src="../images/logo.svg" />
+          <img
+            alt="Логотип Фонд Друзья"
+            class="page__image logo logo_position_footer"
+            src="../images/logo-position-footer.svg"
+          />
           <nav>
-            <ul class="page__list footer-navigation">
+            <ul class="page__list navigation navigation_position_footer">
               <li>
                 <a
-                  class="page__link footer-navigation__link footer-navigation__link_weight_regular footer-navigation__link_color_white"
+                  class="page__link navigation__link navigation__link_weight_regular navigation__link_color_white"
                   href="#"
                   >Фонд</a
                 >
               </li>
               <li>
                 <a
-                  class="page__link footer-navigation__link footer-navigation__link_weight_regular footer-navigation__link_color_white"
+                  class="page__link navigation__link navigation__link_weight_regular navigation__link_color_white"
                   href="#"
                   >Программы</a
                 >
               </li>
               <li>
                 <a
-                  class="page__link footer-navigation__link footer-navigation__link_weight_regular footer-navigation__link_color_white"
+                  class="page__link navigation__link navigation__link_weight_regular navigation__link_color_white"
                   href="#"
                   >Для&#160;НКО</a
                 >
               </li>
               <li>
                 <a
-                  class="page__link footer-navigation__link footer-navigation__link_weight_regular footer-navigation__link_color_white"
+                  class="page__link navigation__link navigation__link_weight_regular navigation__link_color_white"
                   href="#"
                   >Для&#160;бизнеса</a
                 >
               </li>
               <li>
                 <a
-                  class="page__link footer-navigation__link footer-navigation__link_weight_regular footer-navigation__link_color_white"
+                  class="page__link navigation__link navigation__link_weight_regular navigation__link_color_white"
                   href="#"
                   >Блог</a
                 >
               </li>
               <li>
                 <a
-                  class="page__link footer-navigation__link footer-navigation__link_weight_regular footer-navigation__link_color_white"
+                  class="page__link navigation__link navigation__link_weight_regular navigation__link_color_white"
                   href="#"
                   >Партнёры</a
                 >
               </li>
               <li>
                 <a
-                  class="page__link footer-navigation__link footer-navigation__link_weight_regular footer-navigation__link_color_white"
+                  class="page__link navigation__link navigation__link_weight_regular navigation__link_color_white"
                   href="#"
                   >Контакты</a
                 >
               </li>
               <li>
                 <a
-                  class="page__link footer-navigation__link footer-navigation__link_weight_bold footer-navigation__link_color_yellow"
+                  class="page__link navigation__link navigation__link_weight_bold navigation__link_color_yellow"
                   href="#"
                   >Помочь&#160;фонду</a
                 >
@@ -681,18 +881,20 @@
             </li>
             <li class="contact-data__item">
               <span class="contact-data__heading">Мы&#160;в&#160;соцсетях:</span>
-              <ul class="page__list contact-data__socials">
+              <ul class="page__list socials socials_position_footer">
                 <li>
-                  <a
-                    class="page__link contact-data__socials-item contact-data__socials-item_name_vk"
-                    href="#"
-                  ></a>
+                  <a class="page__link socials__item" href="#">
+                    <svg class="socials__icon">
+                      <use xlink:href="../images/vk.svg#vk"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li>
-                  <a
-                    class="page__link contact-data__socials-item contact-data__socials-item_name_telegram"
-                    href="#"
-                  ></a>
+                  <a class="page__link socials__item" href="#">
+                    <svg class="socials__icon">
+                      <use xlink:href="../images/telegram.svg#telegram"></use>
+                    </svg>
+                  </a>
                 </li>
               </ul>
             </li>
@@ -715,6 +917,5 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="./index.js"></script>
-    <script src="../scripts/fund.js"></script>
   </body>
 </html>

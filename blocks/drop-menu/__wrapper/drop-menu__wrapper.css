@@ -1,0 +1,7 @@
+.drop-menu__wrapper {
+  box-sizing: border-box;
+  display: flex;
+  padding: 36px 60px;
+  max-width: var(--page-max-width);
+  margin: 0 auto;
+}

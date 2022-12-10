@@ -1,0 +1,3 @@
+.popup__wrapper_form_rounded {
+  border-radius: var(--popup-wrapper-border-radius);
+}

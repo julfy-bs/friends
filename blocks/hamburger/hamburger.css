@@ -1,0 +1,13 @@
+.hamburger {
+  align-items: center;
+  display: none;
+  height: var(--header-height);
+  justify-content: center;
+  width: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .hamburger {
+    display: flex;
+  }
+}

@@ -1,12 +1,9 @@
 .navigation__link {
-  color: var(--color-white);
-  font-size: 15px;
-  line-height: 1.25;
-  text-decoration: none;
+  font-size: inherit;
+  line-height: inherit;
+  transition: opacity 0.25s ease;
 }
 
-@media screen and (max-width: 1024px) {
-  .navigation__link {
-    font-size: 13px;
-  }
+.navigation__link:hover {
+  opacity: 0.4;
 }

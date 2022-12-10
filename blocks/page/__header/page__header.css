@@ -1,7 +1,6 @@
 .page__header {
-  width: 100vw;
+  box-sizing: border-box;
   background-color: var(--color-turquoise-40);
-  position: sticky;
-  z-index: 10;
-  top: 0;
+  color: var(--color-white);
+  width: 100%;
 }
