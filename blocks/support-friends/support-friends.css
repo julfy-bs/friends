@@ -1,7 +1,7 @@
 .support-friends {
   background-color: var(--color-purple-70);
   display: flex;
-  margin: 96px auto -50px;
+  margin: 96px auto 0;
   padding: 56px 32px 64px 32px;
   justify-content: space-between;
   max-width: 1134px;
@@ -12,16 +12,10 @@
   z-index: 1;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1025px) {
   .support-friends {
     flex-direction: column;
     gap: 40px;
     padding: 48px 8px 8px;
-  }
-}
-
-@media screen and (max-width: 769px) {
-  .support-friends {
-    margin-bottom: 0px;
   }
 }
