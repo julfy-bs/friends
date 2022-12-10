@@ -1,0 +1,25 @@
+.popup__close {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  height: var(--popup-close-size);
+  justify-content: center;
+  position: absolute;
+  right: var(--popup-close-size);
+  top: var(--popup-close-size);
+  transition: opacity 0.5s ease;
+  width: var(--popup-close-size);
+}
+
+.popup__close:after {
+  background: url('../../../images/popup-close.svg') no-repeat center / cover;
+  content: '';
+  height: var(--popup-close-size);
+  transition: opacity 0.5s ease;
+  width: var(--popup-close-size);
+}
+
+.popup__close:hover:after {
+  cursor: pointer;
+  opacity: 0.6;
+}

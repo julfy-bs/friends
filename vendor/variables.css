@@ -32,4 +32,6 @@
   /* Page */
   --page-min-width: 375px;
   --page-max-width: 1280px;
+  /* Popup */
+  --popup-close-size: 26px;
 }
