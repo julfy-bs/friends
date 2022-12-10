@@ -11,7 +11,161 @@
     <link rel="stylesheet" href="fund.css" />
   </head>
   <body class="page">
-    <header class="page__header"></header>
+    <header class="page__header header">
+      <div class="header__wrapper">
+        <div class="header__content">
+          <button
+            aria-label="Открыть меню"
+            class="page__button hamburger hamburger_role_drop-menu"
+            type="button"
+          >
+            <span class="hamburger__container">
+              <span class="hamburger__line hamburger__line_position_top"></span>
+              <span class="hamburger__line hamburger__line_position_middle"></span>
+              <span class="hamburger__line hamburger__line_position_bottom"></span>
+            </span>
+          </button>
+          <button
+            aria-label="Открыть меню"
+            class="page__button hamburger hamburger_role_menu"
+            type="button"
+          >
+            <span class="hamburger__container">
+              <span class="hamburger__line hamburger__line_position_top"></span>
+              <span class="hamburger__line hamburger__line_position_middle"></span>
+              <span class="hamburger__line hamburger__line_position_bottom"></span>
+            </span>
+          </button>
+          <img
+            alt="Логотип Фонд Друзья"
+            class="page__image logo logo_position_header"
+            src="../images/logo-position-header.svg"
+          />
+          <div class="header__links">
+            <nav>
+              <ul class="page__list navigation navigation_position_header">
+                <li>
+                  <a
+                    class="page__link navigation__link navigation__link_weight_regular navigation__link_color_white"
+                    href="#"
+                    >Фонд</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="page__link navigation__link navigation__link_weight_regular navigation__link_color_white"
+                    href="#"
+                    >Программы</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="page__link navigation__link navigation__link_weight_regular navigation__link_color_white"
+                    href="#"
+                    >Для&#160;НКО</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="page__link navigation__link navigation__link_weight_regular navigation__link_color_white"
+                    href="#"
+                    >Для&#160;бизнеса</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="page__link navigation__link navigation__link_weight_regular navigation__link_color_white"
+                    href="#"
+                    >Блог</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="page__link navigation__link navigation__link_weight_regular navigation__link_color_white"
+                    href="#"
+                    >Партнёры</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="page__link navigation__link navigation__link_weight_regular navigation__link_color_white"
+                    href="#"
+                    >Контакты</a
+                  >
+                </li>
+              </ul>
+            </nav>
+            <ul class="page__list socials socials_position_header">
+              <li>
+                <a class="page__link socials__item" href="#">
+                  <svg class="socials__icon">
+                    <use xlink:href="../images/vk.svg#vk"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="page__link socials__item" href="#">
+                  <svg class="socials__icon">
+                    <use xlink:href="../images/telegram.svg#telegram"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+            <ul class="page__list lang-switcher lang-switcher_position_header">
+              <li>
+                <a class="page__link lang-switcher__link lang-switcher__link_active" href="#">Ру</a>
+              </li>
+              <li>
+                <a class="page__link lang-switcher__link" href="#">En</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <a class="page__link button button_type_additional button_radius_unset button_padding_xl"
+          >Помочь&nbsp;фонду</a
+        >
+      </div>
+      <div class="drop-menu">
+        <div class="drop-menu__wrapper">
+          <nav class="drop-menu__content">
+            <ul class="page__list drop-menu__list">
+              <li class="drop-menu__item">
+                <a href="#" class="page__link drop-menu__link">О фонде «Друзья»</a>
+                <p class="page__paragraph drop-menu__description">История фонда, миссия</p>
+              </li>
+              <li class="drop-menu__item">
+                <a href="#" class="page__link drop-menu__link">Структура фонда</a>
+                <p class="page__paragraph drop-menu__description">
+                  Экспертный совет, Попечительский совет, Правление, Команда
+                </p>
+              </li>
+              <li class="drop-menu__item">
+                <a href="#" class="page__link drop-menu__link">Документы</a>
+                <p class="page__paragraph drop-menu__description">
+                  Оферта, Реквизиты, Устав Договор пожертвования
+                </p>
+              </li>
+              <li class="drop-menu__item">
+                <a href="#" class="page__link drop-menu__link">Отчёты</a>
+                <p class="page__paragraph drop-menu__description">Аудит, Годовой отчёт</p>
+              </li>
+              <li class="drop-menu__item">
+                <a href="#" class="page__link drop-menu__link">FAQ</a>
+                <p class="page__paragraph drop-menu__description">
+                  Ответы на часто задаваемые вопросы
+                </p>
+              </li>
+              <li class="drop-menu__item">
+                <a href="#" class="page__link drop-menu__link">СМИ о нас</a>
+                <p class="page__paragraph drop-menu__description">
+                  Что пишут о нас в сети интернета
+                </p>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
     <main class="page__content">
       <section class="contacts">
         <h2 class="section-title page__title">Остались вопросы? Пишите и&nbsp;звоните нам</h2>
@@ -141,9 +295,105 @@
           </button>
         </form>
       </section>
-      <div class="popup popup-form">
-        <div class="popup__wrapper">
-          <button class="page__button popup__close" type="button" aria-label="Закрыть"></button>
+      <div class="popup popup_role_burger">
+        <div class="popup__wrapper popup__wrapper_size_screen">
+          <button
+            aria-label="Закрыть"
+            class="page__button popup__close popup__close_position_left"
+            type="button"
+          ></button>
+          <div class="popup__content">
+            <nav>
+              <ul class="page__list navigation navigation_position_menu">
+                <li>
+                  <a
+                    class="page__link navigation__link navigation__link_weight_regular navigation__link_color_black"
+                    href="#"
+                    >Фонд</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="page__link navigation__link navigation__link_weight_regular navigation__link_color_black"
+                    href="#"
+                    >Программы</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="page__link navigation__link navigation__link_weight_regular navigation__link_color_black"
+                    href="#"
+                    >Для&#160;НКО</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="page__link navigation__link navigation__link_weight_regular navigation__link_color_black"
+                    href="#"
+                    >Для&#160;бизнеса</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="page__link navigation__link navigation__link_weight_regular navigation__link_color_black"
+                    href="#"
+                    >Блог</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="page__link navigation__link navigation__link_weight_regular navigation__link_color_black"
+                    href="#"
+                    >Партнёры</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="page__link navigation__link navigation__link_weight_regular navigation__link_color_black"
+                    href="#"
+                    >Контакты</a
+                  >
+                </li>
+              </ul>
+            </nav>
+            <div class="popup__group">
+              <ul class="page__list lang-switcher lang-switcher_position_menu">
+                <li>
+                  <a class="page__link lang-switcher__link lang-switcher__link_active" href="#"
+                    >Ру</a
+                  >
+                </li>
+                <li>
+                  <a class="page__link lang-switcher__link" href="#">En</a>
+                </li>
+              </ul>
+              <ul class="page__list socials socials_position_menu">
+                <li>
+                  <a class="page__link socials__item" href="#">
+                    <svg class="socials__icon">
+                      <use xlink:href="../images/vk.svg#vk"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a class="page__link socials__item" href="#">
+                    <svg class="socials__icon">
+                      <use xlink:href="../images/telegram.svg#telegram"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup popup_role_form">
+        <div class="popup__wrapper popup__wrapper_size_medium popup__wrapper_form_rounded">
+          <button
+            class="page__button popup__close popup__close_position_right"
+            type="button"
+            aria-label="Закрыть"
+          ></button>
           <img
             src="../images/success.svg"
             alt="Иконка с галочкой."
@@ -154,64 +404,68 @@
         </div>
       </div>
     </main>
-    <footer class="page__footer footer">
+    <footer class="page__footer footer footer_size_xl">
       <div class="footer__wrapper">
         <div class="footer__section footer__section_name_content">
-          <img alt="Логотип Фонд Друзья" class="logo" src="../images/logo.svg" />
+          <img
+            alt="Логотип Фонд Друзья"
+            class="page__image logo logo_position_footer"
+            src="../images/logo-position-footer.svg"
+          />
           <nav>
-            <ul class="page__list footer-navigation">
+            <ul class="page__list navigation navigation_position_footer">
               <li>
                 <a
-                  class="page__link footer-navigation__link footer-navigation__link_weight_regular footer-navigation__link_color_white"
+                  class="page__link navigation__link navigation__link_weight_regular navigation__link_color_white"
                   href="#"
                   >Фонд</a
                 >
               </li>
               <li>
                 <a
-                  class="page__link footer-navigation__link footer-navigation__link_weight_regular footer-navigation__link_color_white"
+                  class="page__link navigation__link navigation__link_weight_regular navigation__link_color_white"
                   href="#"
                   >Программы</a
                 >
               </li>
               <li>
                 <a
-                  class="page__link footer-navigation__link footer-navigation__link_weight_regular footer-navigation__link_color_white"
+                  class="page__link navigation__link navigation__link_weight_regular navigation__link_color_white"
                   href="#"
                   >Для&#160;НКО</a
                 >
               </li>
               <li>
                 <a
-                  class="page__link footer-navigation__link footer-navigation__link_weight_regular footer-navigation__link_color_white"
+                  class="page__link navigation__link navigation__link_weight_regular navigation__link_color_white"
                   href="#"
                   >Для&#160;бизнеса</a
                 >
               </li>
               <li>
                 <a
-                  class="page__link footer-navigation__link footer-navigation__link_weight_regular footer-navigation__link_color_white"
+                  class="page__link navigation__link navigation__link_weight_regular navigation__link_color_white"
                   href="#"
                   >Блог</a
                 >
               </li>
               <li>
                 <a
-                  class="page__link footer-navigation__link footer-navigation__link_weight_regular footer-navigation__link_color_white"
+                  class="page__link navigation__link navigation__link_weight_regular navigation__link_color_white"
                   href="#"
                   >Партнёры</a
                 >
               </li>
               <li>
                 <a
-                  class="page__link footer-navigation__link footer-navigation__link_weight_regular footer-navigation__link_color_white"
+                  class="page__link navigation__link navigation__link_weight_regular navigation__link_color_white"
                   href="#"
                   >Контакты</a
                 >
               </li>
               <li>
                 <a
-                  class="page__link footer-navigation__link footer-navigation__link_weight_bold footer-navigation__link_color_yellow"
+                  class="page__link navigation__link navigation__link_weight_bold navigation__link_color_yellow"
                   href="#"
                   >Помочь&#160;фонду</a
                 >
@@ -233,18 +487,20 @@
             </li>
             <li class="contact-data__item">
               <span class="contact-data__heading">Мы&#160;в&#160;соцсетях:</span>
-              <ul class="page__list contact-data__socials">
+              <ul class="page__list socials socials_position_footer">
                 <li>
-                  <a
-                    class="page__link contact-data__socials-item contact-data__socials-item_name_vk"
-                    href="#"
-                  ></a>
+                  <a class="page__link socials__item" href="#">
+                    <svg class="socials__icon">
+                      <use xlink:href="../images/vk.svg#vk"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li>
-                  <a
-                    class="page__link contact-data__socials-item contact-data__socials-item_name_telegram"
-                    href="#"
-                  ></a>
+                  <a class="page__link socials__item" href="#">
+                    <svg class="socials__icon">
+                      <use xlink:href="../images/telegram.svg#telegram"></use>
+                    </svg>
+                  </a>
                 </li>
               </ul>
             </li>

@@ -102,3 +102,45 @@ function createListeners(arr) {
 
 createListeners(buttonsType);
 createListeners(buttonsSum);
+
+// header
+const hamburgerMenu = document.querySelector('.hamburger_role_menu');
+const popupBurger = document.querySelector('.popup_role_burger');
+const popupBurgerCloseButton = popupBurger.querySelector('.popup__close');
+
+const closePopup = (popup) => {
+  popup.classList.remove('popup_active');
+};
+
+const openPopup = (popup) => {
+  popup.classList.add('popup_active');
+};
+
+hamburgerMenu.addEventListener('click', () => {
+  openPopup(popupBurger);
+});
+
+popupBurgerCloseButton.addEventListener('click', () => {
+  closePopup(popupBurger);
+});
+
+// drop-menu
+const hamburgerDrop = document.querySelector('.hamburger_role_drop-menu');
+const dropMenu = document.querySelector('.drop-menu');
+
+const toggleDropMenu = () => {
+  const condition =
+    dropMenu.classList.contains('drop-menu_active') &&
+    hamburgerDrop.classList.contains('hamburger_active');
+  if (condition) {
+    dropMenu.classList.remove('drop-menu_active');
+    hamburgerDrop.classList.remove('hamburger_active');
+  } else {
+    dropMenu.classList.add('drop-menu_active');
+    hamburgerDrop.classList.add('hamburger_active');
+  }
+};
+
+hamburgerDrop.addEventListener('click', () => {
+  toggleDropMenu();
+});

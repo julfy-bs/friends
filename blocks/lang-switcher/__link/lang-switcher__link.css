@@ -1,0 +1,8 @@
+.lang-switcher__link {
+  opacity: 0.4;
+  transition: opacity 0.25s ease;
+}
+
+.lang-switcher__link:hover {
+  opacity: 1;
+}

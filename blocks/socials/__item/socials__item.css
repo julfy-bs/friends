@@ -1,0 +1,10 @@
+.socials__item {
+  display: block;
+  width: 24px;
+  height: 24px;
+  transition: opacity 0.25s ease;
+}
+
+.socials__item:hover {
+  opacity: 0.4;
+}

@@ -1,0 +1,12 @@
+.navigation_position_footer {
+  display: flex;
+  font-size: 14px;
+  gap: 16px 24px;
+  line-height: 1.43;
+}
+
+@media screen and (max-width: 1025px) {
+  .navigation_position_footer {
+    flex-wrap: wrap;
+  }
+}

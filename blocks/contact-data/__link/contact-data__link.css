@@ -1,3 +1,8 @@
 .contact-data__link {
   color: var(--color-turquoise-70, #77c5d5);
+  transition: opacity 0.25s ease;
+}
+
+.contact-data__link:hover {
+  opacity: 0.4;
 }

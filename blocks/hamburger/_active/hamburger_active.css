@@ -1,0 +1,14 @@
+.hamburger_active .hamburger__line_position_top {
+  top: 8px;
+  transform: translate(0) rotate(225deg);
+}
+
+.hamburger_active .hamburger__line_position_middle {
+  top: 8px;
+  transform: translate(24px);
+}
+
+.hamburger_active .hamburger__line_position_bottom {
+  top: 8px;
+  transform: translate(0) rotate(135deg);
+}

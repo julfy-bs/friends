@@ -9,6 +9,7 @@
   width: fit-content;
   margin-left: auto;
   white-space: nowrap;
+  color: var(--color-turquoise-70, #77c5d5);
 }
 
 @media screen and (max-width: 1025px) {

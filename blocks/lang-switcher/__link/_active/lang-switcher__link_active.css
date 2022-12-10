@@ -1,0 +1,7 @@
+.lang-switcher__link_active {
+  opacity: 1;
+}
+
+.lang-switcher__link_active:hover {
+  cursor: default;
+}

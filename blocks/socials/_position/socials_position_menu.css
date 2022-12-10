@@ -1,0 +1,15 @@
+.socials_position_menu {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .socials_position_menu {
+    display: flex;
+    justify-content: center;
+  }
+
+  .socials_position_menu .socials__item {
+    width: 30px;
+    height: 30px;
+  }
+}

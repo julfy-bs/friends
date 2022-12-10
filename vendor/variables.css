@@ -4,8 +4,8 @@
   --font-inter: 'Inter', Arial, sans-serif;
   /*/ Colors /*/
   --color-white: #fff;
-  --color-grey-80: #f1f5f9;
   --color-grey-90: #f8f8f8;
+  --color-grey-80: #f1f5f9;
   --color-grey-70: #e3e7eb;
   --color-grey-60: #c5c9cd;
   --color-grey-50: #999;
@@ -32,6 +32,17 @@
   /* Page */
   --page-min-width: 375px;
   --page-max-width: 1280px;
+  /* Header */
+  --header-height: 56px;
   /* Popup */
   --popup-close-size: 26px;
+  --popup-close-position: 23px;
+  --popup-wrapper-border-radius: 24px;
+}
+
+@media screen and (max-width: 481px) {
+  :root {
+    /* Header */
+    --header-height: 48px;
+  }
 }
