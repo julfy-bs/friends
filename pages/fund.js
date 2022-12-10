@@ -1,10 +1,10 @@
 const popupForm = document.querySelector('.popup_role_form');
 const popupFormCloseButton = popupForm.querySelector('.popup__close');
 const form = document.querySelector('.connection__form');
-const formName = form.querySelector("[name='name']");
-const formEmail = form.querySelector("[name='email']");
-const formTextarea = form.querySelector("[name='main-text']");
-const formCheckbox = form.querySelector("[name='approval']");
+const formName = form.querySelector('[name="name"]');
+const formEmail = form.querySelector('[name="email"]');
+const formTextarea = form.querySelector('[name="main-text"]');
+const formCheckbox = form.querySelector('[name="approval"]');
 
 const closePopup = (popup) => {
   popup.classList.remove('popup_active');
@@ -67,7 +67,7 @@ const bankCardElement = document.querySelector('.donation-form__bank-card');
 
 function handleDonationForm(event) {
   event.preventDefault();
-  const data = new FormData(event);
+  const data = new FormData(event.target);
   return data;
 }
 
