@@ -1,0 +1,5 @@
+@media screen and (max-width: 580px) {
+  .donation-form__item_mobile-col_two {
+    grid-column: span 2;
+  }
+}

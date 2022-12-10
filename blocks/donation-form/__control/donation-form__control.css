@@ -24,3 +24,7 @@
 .donation-form__control:hover {
   border-color: var(--color-black);
 }
+
+.donation-form__control::placeholder {
+  color: #8e8e8e;
+}
