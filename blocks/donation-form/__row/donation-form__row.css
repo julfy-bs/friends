@@ -1,0 +1,13 @@
+.donation-form__row {
+  margin-top: 40px;
+}
+
+.donation-form__row:first-child {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 580px) {
+  .donation-form__row {
+    margin-top: 24px;
+  }
+}

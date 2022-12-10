@@ -1,0 +1,28 @@
+.donation__title {
+  max-width: 855px;
+  margin: 0 auto;
+  padding: 56px 24px 318px;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 1.32;
+  text-align: center;
+  color: var(--color-white);
+}
+
+.donation__title::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 490px;
+  content: '';
+  background-color: var(--color-purple-70);
+  z-index: -1;
+}
+
+@media screen and (max-width: 768px) {
+  .donation__title {
+    font-size: 40px;
+    padding: 40px 24px 268px;
+  }
+}

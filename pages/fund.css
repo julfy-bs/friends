@@ -180,3 +180,44 @@
 @import url('../blocks/rights/rights.css');
 @import url('../blocks/rights/__description/rights__description.css');
 @import url('../blocks/rights/__image/rights__image.css');
+
+/* donation form */
+@import url('../blocks/donation-form/donation-form.css');
+@import url('../blocks/donation-form/__agreements/donation-form__agreements.css');
+@import url('../blocks/donation-form/__card/donation-form__card.css');
+@import url('../blocks/donation-form/__card-back/donation-form__card-back.css');
+@import url('../blocks/donation-form/__card-back-title/donation-form__card-back-title.css');
+@import url('../blocks/donation-form/__card-cvc/donation-form__card-cvc.css');
+@import url('../blocks/donation-form/__card-cvc-mobile/donation-form__card-cvc-mobile.css');
+@import url('../blocks/donation-form/__card-footer/donation-form__card-footer.css');
+@import url('../blocks/donation-form/__card-front/donation-form__card-front.css');
+@import url('../blocks/donation-form/__card-info/donation-form__card-info.css');
+@import url('../blocks/donation-form/__card-title/donation-form__card-title.css');
+@import url('../blocks/donation-form/__card-total/donation-form__card-total.css');
+@import url('../blocks/donation-form/__card-total-amount/donation-form__card-total-amount.css');
+@import url('../blocks/donation-form/__card-total-title/donation-form__card-total-title.css');
+@import url('../blocks/donation-form/__control/donation-form__control.css');
+@import url('../blocks/donation-form/__control-checkbox/donation-form__control-checkbox.css');
+@import url('../blocks/donation-form/__control-radio/donation-form__control-radio.css');
+@import url('../blocks/donation-form/__field-amount/donation-form__field-amount.css');
+@import url('../blocks/donation-form/__field-checkbox/donation-form__field-checkbox.css');
+@import url('../blocks/donation-form/__field-radio/donation-form__field-radio.css');
+@import url('../blocks/donation-form/__field-radio/_name/donation-form__field-radio_name_apple.css');
+@import url('../blocks/donation-form/__field-radio/_name/donation-form__field-radio_name_google.css');
+@import url('../blocks/donation-form/__field-radio/_type/donation-form__field-radio_type_roll.css');
+@import url('../blocks/donation-form/__field-roll/donation-form__field-roll.css');
+@import url('../blocks/donation-form/__fields/donation-form__fields.css');
+@import url('../blocks/donation-form/__fields/_type/donation-form__fields_type_contact.css');
+@import url('../blocks/donation-form/__fields/_type/donation-form__fields_type_payment.css');
+@import url('../blocks/donation-form/__fields/_type/donation-form__fields_type_roll.css');
+@import url('../blocks/donation-form/__item/_col/donation-form__item_col_three.css');
+@import url('../blocks/donation-form/__item/_mobile-col/donation-form__item_mobile-col_two.css');
+@import url('../blocks/donation-form/__link/donation-form__link.css');
+@import url('../blocks/donation-form/__name/donation-form__name.css');
+@import url('../blocks/donation-form/__row/donation-form__row.css');
+@import url('../blocks/donation-form/__submit/donation-form__submit.css');
+
+/* donation */
+@import url('../blocks/donation/__form/donation__form.css');
+@import url('../blocks/donation/__title/donation__title.css');
+@import url('../blocks/donation/__title-accent/donation__title-accent.css');
