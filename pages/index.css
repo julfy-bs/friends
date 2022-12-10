@@ -122,17 +122,17 @@
 @import url('../blocks/about/__figure/_position/about__figure_position_twelfth.css');
 
 /* subscription */
-@import url(../blocks/subscription/subscription.css);
-@import url(../blocks/subscription/__wrapper/subscription__wrapper.css);
-@import url(../blocks/subscription/__button/subscription__button.css);
-@import url(../blocks/subscription/__form/subscription__form.css);
-@import url(../blocks/subscription/__input/subscription__input.css);
-@import url(../blocks/subscription/__text-container/subscription__text-container.css);
-@import url(../blocks/subscription/__text/subscription__text.css);
-@import url(../blocks/subscription/__title/subscription__title.css);
-@import url(../blocks/subscription/__clear/subscription__clear.css);
-@import url(../blocks/subscription/__clear/_enabled/subscription__clear_enabled.css);
-@import url(../blocks/subscription/__input-wrapper/subscription__input-wrapper.css);
+@import url('../blocks/subscription/subscription.css');
+@import url('../blocks/subscription/__wrapper/subscription__wrapper.css');
+@import url('../blocks/subscription/__button/subscription__button.css');
+@import url('../blocks/subscription/__form/subscription__form.css');
+@import url('../blocks/subscription/__input/subscription__input.css');
+@import url('../blocks/subscription/__text-container/subscription__text-container.css');
+@import url('../blocks/subscription/__text/subscription__text.css');
+@import url('../blocks/subscription/__title/subscription__title.css');
+@import url('../blocks/subscription/__clear/subscription__clear.css');
+@import url('../blocks/subscription/__clear/_enabled/subscription__clear_enabled.css');
+@import url('../blocks/subscription/__input-wrapper/subscription__input-wrapper.css');
 
 /* our friends */
 @import url('../blocks/our-friends/our-friends.css');
