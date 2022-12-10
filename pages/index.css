@@ -236,6 +236,7 @@
 
 /* support-friends */
 @import url('../blocks/support-friends/support-friends.css');
+@import url('../blocks/support-friends/_overlay/support-friends_overlay.css');
 @import url('../blocks/support-friends/__title/support-friends__title.css');
 @import url('../blocks/support-friends/__title-accent/support-friends__title-accent.css');
 @import url('../blocks/support-friends/__form/support-friends__form.css');
