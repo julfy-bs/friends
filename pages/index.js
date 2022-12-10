@@ -90,9 +90,9 @@ function changeButton(button) {
 }
 
 function createListeners(arr) {
-  arr.forEach(function(item) {
-    item.addEventListener('click', function() {
-      arr.forEach(function(btn) {
+  arr.forEach(function (item) {
+    item.addEventListener('click', function () {
+      arr.forEach(function (btn) {
         changeButton(btn);
       });
       choiceButton(item);
@@ -129,7 +129,9 @@ const hamburgerDrop = document.querySelector('.hamburger_role_drop-menu');
 const dropMenu = document.querySelector('.drop-menu');
 
 const toggleDropMenu = () => {
-  const condition = dropMenu.classList.contains('drop-menu_active') && hamburgerDrop.classList.contains('hamburger_active');
+  const condition =
+    dropMenu.classList.contains('drop-menu_active') &&
+    hamburgerDrop.classList.contains('hamburger_active');
   if (condition) {
     dropMenu.classList.remove('drop-menu_active');
     hamburgerDrop.classList.remove('hamburger_active');

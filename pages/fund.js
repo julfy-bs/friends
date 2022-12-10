@@ -1,6 +1,5 @@
-// popup форма успешно отправлена
-const popupForm = document.querySelector('.popup_role_form');
-const popupFormCloseButton = popupForm.querySelector('.popup__close');
+const popupForm = document.querySelector('.popup-form');
+const popupProfileCloseButton = popupForm.querySelector('.popup__close');
 const form = document.querySelector('.connection__form');
 const formName = form.querySelector("[name='name']");
 const formEmail = form.querySelector("[name='email']");
@@ -46,7 +45,9 @@ const hamburgerDrop = document.querySelector('.hamburger_role_drop-menu');
 const dropMenu = document.querySelector('.drop-menu');
 
 const toggleDropMenu = () => {
-  const condition = dropMenu.classList.contains('drop-menu_active') && hamburgerDrop.classList.contains('hamburger_active');
+  const condition =
+    dropMenu.classList.contains('drop-menu_active') &&
+    hamburgerDrop.classList.contains('hamburger_active');
   if (condition) {
     dropMenu.classList.remove('drop-menu_active');
     hamburgerDrop.classList.remove('hamburger_active');
