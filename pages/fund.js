@@ -1,5 +1,5 @@
-const popupForm = document.querySelector('.popup-form');
-const popupProfileCloseButton = popupForm.querySelector('.popup__close');
+const popupForm = document.querySelector('.popup_role_form');
+const popupFormCloseButton = popupForm.querySelector('.popup__close');
 const form = document.querySelector('.connection__form');
 const formName = form.querySelector("[name='name']");
 const formEmail = form.querySelector("[name='email']");
