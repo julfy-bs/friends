@@ -2,11 +2,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 96px 0;
+  padding: 96px 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
   .connection {
-    margin: 56px 0;
+    padding: 56px 0;
   }
 }
