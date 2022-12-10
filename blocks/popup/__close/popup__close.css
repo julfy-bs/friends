@@ -7,8 +7,8 @@
   position: absolute;
   right: var(--popup-close-size);
   top: var(--popup-close-size);
-  width: var(--popup-close-size);
   transition: opacity 0.5s ease;
+  width: var(--popup-close-size);
 }
 
 .popup__close:after {
