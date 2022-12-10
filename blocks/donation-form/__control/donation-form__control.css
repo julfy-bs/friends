@@ -1,0 +1,26 @@
+.donation-form__control {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 18px;
+  background-color: var(--control-background-color, var(--color-grey-90));
+  font-size: 16px;
+  line-height: 1.25;
+  border-color: transparent;
+  transition: border-color 0.3s ease-in-out;
+}
+
+/* Chrome, Safari, Edge, Opera */
+.donation-form__control::-webkit-outer-spin-button,
+.donation-form__control::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.donation-form__control[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.donation-form__control:hover {
+  border-color: var(--color-black);
+}

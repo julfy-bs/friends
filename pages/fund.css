@@ -180,3 +180,11 @@
 @import url('../blocks/rights/rights.css');
 @import url('../blocks/rights/__description/rights__description.css');
 @import url('../blocks/rights/__image/rights__image.css');
+
+/* donation form */
+@import url('../blocks/donation-form/donation-form.css');
+@import url('../blocks/donation-form/__control-checkbox/donation-form__control-checkbox.css');
+@import url('../blocks/donation-form/__control/donation-form__control.css');
+
+/* donation */
+@import url('../blocks/donation/donation.css');

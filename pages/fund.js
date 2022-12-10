@@ -60,3 +60,41 @@ const toggleDropMenu = () => {
 hamburgerDrop.addEventListener('click', () => {
   toggleDropMenu();
 });
+
+const formElement = document.querySelector('.donation-form');
+const paymentMethodControls = document.querySelectorAll('[name="paymentMethod"]');
+const bankCardElement = document.querySelector('.donation-form__bank-card');
+
+function handleDonationForm(event) {
+  event.preventDefault();
+  const data = new FormData(event);
+  return data;
+}
+
+function showBankCard() {
+  bankCardElement.removeAttribute('hidden');
+}
+
+function hideBankCard() {
+  bankCardElement.setAttribute('hidden', true);
+}
+
+function handlePaymentMethod({ target }) {
+  const { value: paymentMethod } = target;
+  if (paymentMethod === 'visaMir') {
+    showBankCard();
+  } else {
+    hideBankCard();
+  }
+}
+
+function listenPaymentMethod(element) {
+  element.addEventListener('input', handlePaymentMethod);
+}
+
+function initDonationForm(element) {
+  element.addEventListener('submit', handleDonationForm);
+  paymentMethodControls.forEach(listenPaymentMethod);
+}
+
+initDonationForm(formElement);
