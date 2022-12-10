@@ -1,0 +1,50 @@
+.useful__content {
+  display: flex;
+  max-width: 504px;
+  background-color: var(--color-grey-90);
+  position: relative;
+}
+
+.useful__content:hover .useful__img__handshake {
+  transform: scale(1.2);
+
+}
+
+.useful__content:hover .useful__img__handshake {
+  transition: transform .4s ease-in;
+
+}
+
+.useful__content:hover .useful__img__books {
+  transform: scale(1.2);
+
+}
+
+.useful__content:hover .useful__img__books {
+  transition: transform .4s ease-in;
+
+}
+
+.useful__content:hover .useful__img__glass {
+  transform: scale(1.2);
+
+}
+
+.useful__content:hover .useful__img__glass {
+  transition: transform .4s ease-in;
+
+}
+
+.useful__content:hover .useful__img__diary {
+  transform: scale(1.2);
+
+}
+
+.useful__content:hover .useful__img__diary {
+  transition: transform .4s ease-in;
+
+}
+
+.useful__content:hover {
+  background-color: var(--color-white);
+}

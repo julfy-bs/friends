@@ -1,0 +1,17 @@
+.useful__img__books {
+  width: 156px;
+  height: 91px;
+  position: absolute;
+  top: 58px;
+  right: 46px;
+}
+
+@media screen and (max-width: 500px) {
+  .useful__img__books {
+    width: 120px;
+    height: 70px;
+    position: absolute;
+    top: 113px;
+    right: 38px;
+  }
+}

@@ -1,0 +1,13 @@
+.useful__info {
+  display: flex;
+  flex-direction: column;
+  max-width: 303px;
+  margin: 44px 157px 66px 44px;
+}
+
+@media screen and (max-width: 500px) {
+  .useful__info {
+    margin-top: 32px;
+    margin-left: 24px;
+  }
+}

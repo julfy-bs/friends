@@ -1,0 +1,17 @@
+.useful__img__handshake {
+  width: 160px;
+  height: 188px;
+  position: absolute;
+  top: 15px;
+  right: 0;
+}
+
+@media screen and (max-width: 500px) {
+  .useful__img__handshake {
+    width: 94px;
+    height: 120px;
+    position: absolute;
+    top: 88px;
+    right: 40px;
+  }
+}
