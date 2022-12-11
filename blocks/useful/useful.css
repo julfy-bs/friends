@@ -1,0 +1,17 @@
+.useful {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 96px 24px 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  .useful {
+    padding: 56px 8px 0;
+    gap: 24px;
+  }
+}

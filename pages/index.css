@@ -302,3 +302,16 @@
 @import url('../blocks/statistics/__number/statistics__number.css');
 @import url('../blocks/statistics/__text/statistics__text.css');
 @import url('../blocks/statistics/__span-accent/statistics__span-accent.css');
+
+/* useful */
+@import url('../blocks/useful/useful.css');
+@import url('../blocks/useful/__contents/useful__contents.css');
+@import url('../blocks/useful/__content/useful__content.css');
+@import url('../blocks/useful/__info/useful__info.css');
+@import url('../blocks/useful/__title/useful__title.css');
+@import url('../blocks/useful/__text/useful__text.css');
+@import url('../blocks/useful/__img/useful__img.css');
+@import url('../blocks/useful/__img/_name/useful__img_name_handshake.css');
+@import url('../blocks/useful/__img/_name/useful__img_name_books.css');
+@import url('../blocks/useful/__img/_name/useful__img_name_glass.css');
+@import url('../blocks/useful/__img/_name/useful__img_name_diary.css');
