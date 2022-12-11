@@ -294,3 +294,15 @@
 @import url('../blocks/partners/__image/partners__image.css');
 @import url('../blocks/partners/__link/partners__link.css');
 @import url('../blocks/partners/__title/partners__title.css');
+
+/* useful */
+@import url('../blocks/useful/useful.css');
+@import url('../blocks/useful/__contents/useful__contents.css');
+@import url('../blocks/useful/__content/useful__content.css');
+@import url('../blocks/useful/__info/useful__info.css');
+@import url('../blocks/useful/__title/useful__title.css');
+@import url('../blocks/useful/__text/useful__text.css');
+@import url('../blocks/useful/__img/__handshake/useful__img__handshake.css');
+@import url('../blocks/useful/__img/__books/useful__img__books.css');
+@import url('../blocks/useful/__img/__glass/useful__img__glass.css');
+@import url('../blocks/useful/__img/__diary/useful__img__diary.css');
