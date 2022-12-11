@@ -1,0 +1,15 @@
+.useful__img_name_handshake {
+  bottom: 10px;
+  height: 190px;
+  right: 20px;
+  width: 178px;
+}
+
+@media screen and (max-width: 480px) {
+  .useful__img_name_handshake {
+    bottom: 6px;
+    right: 37px;
+    width: 130px;
+    height: 144px;
+  }
+}
