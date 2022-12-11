@@ -1,4 +1,8 @@
 .more-help__social {
+  display: block;
+  width: 40px;
+  height: 40px;
+  color: var(--color-turquoise-70);
   transition: opacity 0.3s ease;
 }
 
