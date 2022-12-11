@@ -1,0 +1,13 @@
+.donation-form {
+  display: flex;
+  flex-direction: column;
+  padding: 56px 64px 72px;
+  background-color: var(--color-white);
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .donation-form {
+    padding: 24px;
+  }
+}
