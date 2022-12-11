@@ -1,0 +1,17 @@
+.useful__img__diary {
+  width: 109px;
+  height: 109px;
+  position: absolute;
+  top: 51px;
+  right: 68px;
+}
+
+@media screen and (max-width: 500px) {
+  .useful__img__glass {
+    width: 94px;
+    height: 94px;
+    position: absolute;
+    top: 88px;
+    right: 40px;
+  }
+}

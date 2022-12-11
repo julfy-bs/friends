@@ -1,9 +1,0 @@
-.donation-form__submit {
-  margin-top: 27px;
-}
-
-@media screen and (max-width: 580px) {
-  .donation-form__submit {
-    background: var(--color-yellow-70);
-  }
-}
