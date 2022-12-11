@@ -294,3 +294,11 @@
 @import url('../blocks/partners/__image/partners__image.css');
 @import url('../blocks/partners/__link/partners__link.css');
 @import url('../blocks/partners/__title/partners__title.css');
+
+/* statistics */
+@import url('../blocks/statistics/statistics.css');
+@import url('../blocks/statistics/__list/statistics__list.css');
+@import url('../blocks/statistics/__info/statistics__info.css');
+@import url('../blocks/statistics/__number/statistics__number.css');
+@import url('../blocks/statistics/__text/statistics__text.css');
+@import url('../blocks/statistics/__span-accent/statistics__span-accent.css');
