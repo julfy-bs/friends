@@ -1,0 +1,12 @@
+.donation-form__field-radio_type_roll {
+  border-radius: 56px;
+  height: auto;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  color: var(--color-grey-50);
+  font-size: 12px;
+  line-height: 1.67;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
