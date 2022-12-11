@@ -18,3 +18,9 @@
     margin-bottom: 40px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .more-help__container {
+    justify-content: flex-start;
+  }
+}

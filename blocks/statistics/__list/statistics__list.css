@@ -1,0 +1,10 @@
+.statistics__list {
+  padding: 38.5px 0;
+  max-width: 1032px;
+  margin: 0 auto;
+  color: var(--color-white);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px 24px;
+  justify-content: center;
+}

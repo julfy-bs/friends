@@ -196,7 +196,7 @@
                     <input
                       class="donation-form__control-radio"
                       type="radio"
-                      name="type"
+                      name="donationType"
                       value="once"
                       checked
                     />
@@ -208,7 +208,7 @@
                     <input
                       class="donation-form__control-radio"
                       type="radio"
-                      name="type"
+                      name="donationType"
                       value="monthly"
                     />
                     ЕЖЕМЕСЯЧНОЕ
@@ -350,7 +350,7 @@
                     <li>
                       <label>
                         <input
-                          type="number"
+                          type="text"
                           class="donation-form__control"
                           placeholder="Держатель карты"
                           name="cardOwner"
@@ -482,13 +482,7 @@
             </p>
             <a target="_blank" href="#" class="button button_type_light more-help__button">
               Перейти на сайт ProCharity
-              <svg
-                class="more-helep__button-icon"
-                width="12"
-                height="12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+              <svg width="12" height="12" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M1.587 11.35a.661.661 0 1 1-.936-.936L10.693.41l.896.896L1.587 11.35Z"
                   fill="currentColor"
@@ -533,17 +527,38 @@
             <h3 class="more-help__info-heading">Рассказать о нас друзьям</h3>
             <ul class="more-help__socials">
               <li>
-                <a target="_blank" href="#" class="more-help__social"
-                  ><img class="more-help__social-image" src="/images/vk.svg" alt="Логотип ВК"
-                /></a>
+                <a target="_blank" href="#" class="more-help__social">
+                  <svg id="vk" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M11.63 21h.75c4.069 0 6.104 0 7.367-1.264C21.011 18.473 21 16.44 21 12.38v-.76c0-4.058 0-6.093-1.253-7.356C18.494 3 16.45 3 12.38 3h-.75C7.562 3 5.528 3 4.265 4.264 3 5.527 3 7.56 3 11.62v.76c0 4.059 0 6.093 1.264 7.356C5.527 21 7.56 21 11.63 21Z"
+                    />
+                    <path
+                      fill="currentColor"
+                      d="M12.659 15.977c-4.059 0-6.522-2.816-6.618-7.496h2.056c.064 3.438 1.628 4.896 2.827 5.194V8.48h1.97v2.966c1.157-.128 2.366-1.477 2.774-2.966h1.937c-.31 1.831-1.627 3.18-2.559 3.737.932.45 2.431 1.628 3.01 3.759h-2.131c-.45-1.425-1.553-2.528-3.03-2.677v2.677h-.236Z"
+                    />
+                  </svg>
+                </a>
               </li>
               <li>
-                <a target="_blank" href="#" class="more-help__social"
-                  ><img
-                    class="more-help__social-image"
-                    src="/images/telegram.svg"
-                    alt="Логотип Телеграм"
-                /></a>
+                <a target="_blank" href="#" class="more-help__social">
+                  <svg
+                    id="telegram"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M4.191 11.431c4.651-2.026 7.753-3.362 9.304-4.007 4.431-1.843 5.352-2.163 5.952-2.174.132-.002.427.03.618.186a.672.672 0 0 1 .227.432c.022.124.048.407.027.628-.24 2.523-1.279 8.645-1.807 11.47-.224 1.196-.665 1.597-1.09 1.636-.927.085-1.63-.612-2.528-1.2-1.405-.921-2.198-1.494-3.56-2.392-1.576-1.038-.555-1.609.343-2.541.235-.244 4.317-3.957 4.396-4.294.01-.042.019-.2-.074-.282-.094-.083-.231-.055-.33-.032-.141.032-2.385 1.514-6.73 4.448-.637.437-1.214.65-1.73.639-.57-.012-1.666-.322-2.48-.587-1-.325-1.794-.496-1.725-1.048.036-.287.432-.581 1.187-.882Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </a>
               </li>
             </ul>
           </div>
