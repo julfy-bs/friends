@@ -10,6 +10,7 @@
     <title>Помочь Фонду - Друзья</title>
     <link rel="stylesheet" href="fund.css" />
   </head>
+
   <body class="page">
     <header class="page__header header">
       <div class="header__wrapper">
@@ -135,6 +136,7 @@
         </div>
         <a
           target="_blank"
+          href="#"
           class="page__link button button_type_additional button_radius_unset button_padding_xl"
           >Помочь&nbsp;фонду</a
         >
@@ -469,6 +471,37 @@
         >
         <p class="contacts__phone page__paragraph">+7 977 277-07-17</p>
       </section>
+      <section class="statistics">
+        <ul class="statistics__list">
+          <li class="statistics__info">
+            <p class="statistics__number">2500</p>
+            <p class="statistics__text">
+              НКО <span class="statistics__span-accent">стали</span> участниками наших программ
+            </p>
+          </li>
+          <li class="statistics__info">
+            <p class="statistics__number">150</p>
+            <p class="statistics__text">
+              <span class="statistics__span-accent">Профессионалов</span>
+              благотворительности&nbsp;получили дипломы
+            </p>
+          </li>
+          <li class="statistics__info">
+            <p class="statistics__number">4000</p>
+            <p class="statistics__text">
+              Волонтер&nbsp;<span class="statistics__span-accent">был&nbsp;привлечен</span
+              >&nbsp;через нас&nbsp;для&nbsp;помощи&nbsp;различным&nbsp;НКО
+            </p>
+          </li>
+          <li class="statistics__info">
+            <p class="statistics__number">250</p>
+            <p class="statistics__text">
+              Экспертов&nbsp;<span class="statistics__span-accent">преподают</span
+              >&nbsp;в&nbsp;наших программах
+            </p>
+          </li>
+        </ul>
+      </section>
       <section class="more-help">
         <h2 class="more-help__title">
           Как еще <span class="more-help__title-accent">вы можете помочь</span>
@@ -600,13 +633,25 @@
               <a target="_blank" href="#" class="link">пользовательским соглашением</a></span
             >
           </label>
-          <button
-            class="button button_radius_sm button_type_light"
-            type="submit"
-          >
-            Отправить
-          </button>
+          <button class="button button_radius_sm button_type_light" type="submit">Отправить</button>
         </form>
+      </section>
+      <section class="subscription">
+        <div class="subscription__wrapper">
+          <div class="subscription__text-container">
+            <h2 class="subscription__title">Подпишитесь на&nbsp;новостную рассылку программы</h2>
+            <p class="subscription__text">
+              и&nbsp;получайте первыми наши новости и&nbsp;приглашения на&nbsp;семинары/вебинары
+            </p>
+          </div>
+          <form class="subscription__form">
+            <div class="subscription__input-wrapper">
+              <input class="subscription__input" placeholder="Введите ваш e-mail" type="email" />
+              <button class="subscription__clear" type="reset"></button>
+            </div>
+            <button class="subscription__button" type="submit">Подписаться</button>
+          </form>
+        </div>
       </section>
       <div class="popup popup_role_burger">
         <div class="popup__wrapper popup__wrapper_size_screen">
@@ -722,7 +767,7 @@
             alt="Иконка с галочкой."
             class="page__image popup__image"
           />
-          <h2 class="page__title popup__title">Заявка успешно отправлена</h2>
+          <h3 class="page__title popup__title">Заявка успешно отправлена</h3>
           <p class="page__paragraph popup__message">Мы ответим в течение дня</p>
         </div>
       </div>
@@ -817,7 +862,7 @@
             </li>
             <li class="contact-data__item">
               <span class="contact-data__heading">Позвонить&#160;нам:</span>
-              <a target="_blank" class="page__link contact-data__link" href="tel: +79772770717"
+              <a target="_blank" class="page__link contact-data__link" href="tel:79772770717"
                 >+7 977 277-07-17</a
               >
             </li>
@@ -857,6 +902,6 @@
         </div>
       </div>
     </footer>
-    <script src="./fund.js"></script>
+    <script src="../scripts/fund.js"></script>
   </body>
 </html>
