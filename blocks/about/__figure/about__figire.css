@@ -1,3 +1,9 @@
 .about__figure {
   position: absolute;
 }
+
+@media screen and (max-width: 480px) {
+  .about__figure {
+    display: none;
+  }
+}

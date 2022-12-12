@@ -1,6 +1,7 @@
 .subscription__form {
   display: flex;
   gap: 16px;
+  width: 100%;
 }
 
 @media screen and (max-width: 1024px) {

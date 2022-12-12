@@ -90,9 +90,9 @@ function changeButton(button) {
 }
 
 function createListeners(arr) {
-  arr.forEach(function (item) {
-    item.addEventListener('click', function () {
-      arr.forEach(function (btn) {
+  arr.forEach((item) => {
+    item.addEventListener('click', () => {
+      arr.forEach((btn) => {
         changeButton(btn);
       });
       choiceButton(item);
