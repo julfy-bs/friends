@@ -2,7 +2,8 @@
   box-sizing: border-box;
   padding-left: 34px;
   margin: 0;
-  width: 328px;
+  max-width: 328px;
+  width: 100%;
   height: 56px;
   border: none;
   border-radius: 56px;
@@ -12,7 +13,7 @@
   font-size: 14px;
   line-height: 20px;
   color: var(--color-grey-50);
-  background-image: url(../../../images/email-icon.svg);
+  background-image: url('../../../images/email-icon.svg');
   background-repeat: no-repeat;
   padding-left: 26px;
 }
@@ -33,4 +34,10 @@
   font-size: 14px;
   line-height: 20px;
   color: var(--color-grey-50);
+}
+
+@media screen and (max-width: 1024px) {
+  .subscription__input {
+    max-width: none;
+  }
 }

@@ -1,0 +1,3 @@
+.popup__close_position_left {
+  left: var(--popup-close-position);
+}

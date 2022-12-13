@@ -1,0 +1,12 @@
+.useful__info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 357px;
+}
+
+@media screen and (max-width: 480px) {
+  .useful__contents {
+    max-width: none;
+  }
+}

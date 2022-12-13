@@ -1,0 +1,9 @@
+.donation-form__fields_type_contact {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (max-width: 580px) {
+  .donation-form__fields_type_contact {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

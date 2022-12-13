@@ -5,9 +5,10 @@
   align-items: stretch;
   margin: 48px auto 0 auto;
   gap: 24px;
+  max-width: 680px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
   .connection__form {
     width: 91vw;
   }

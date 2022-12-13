@@ -1,0 +1,11 @@
+.popup__content {
+  color: var(--color-black, #000);
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  font-weight: 700;
+  height: 100%;
+  line-height: 1.58;
+  row-gap: 56px;
+  width: 100%;
+}

@@ -1,0 +1,4 @@
+.donation-form__fields_type_payment {
+  gap: 8px;
+  grid-template-columns: 1fr;
+}

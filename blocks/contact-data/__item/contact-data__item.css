@@ -9,9 +9,10 @@
   width: fit-content;
   margin-left: auto;
   white-space: nowrap;
+  color: var(--color-turquoise-70, #77c5d5);
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1024px) {
   .contact-data__item {
     width: 100%;
     flex-direction: column;
@@ -20,15 +21,15 @@
   }
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
   .contact-data__item {
     flex-direction: row;
     justify-content: flex-start;
   }
 }
 
-@media screen and (max-width: 481px) {
+@media screen and (max-width: 480px) {
   .contact-data__item {
-    font-size: 13px;
+    font-size: 11px;
   }
 }

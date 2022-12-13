@@ -1,0 +1,15 @@
+.useful__img_name_glass {
+  bottom: 40px;
+  height: 129px;
+  right: 30px;
+  width: 128px;
+}
+
+@media screen and (max-width: 480px) {
+  .useful__img_name_glass {
+    bottom: 20px;
+    right: 47px;
+    width: 85px;
+    height: 85px;
+  }
+}

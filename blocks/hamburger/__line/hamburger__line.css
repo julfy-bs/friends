@@ -1,0 +1,7 @@
+.hamburger__line {
+  background-color: var(--color-white, #fff);
+  height: 2px;
+  position: absolute;
+  transition: top 0.25s, background-color 0.5s, transform 0.25s;
+  width: 24px;
+}

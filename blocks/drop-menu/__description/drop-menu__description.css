@@ -1,0 +1,5 @@
+.drop-menu__description {
+  font-size: 11px;
+  line-height: 1.36;
+  color: var(--color-grey-40, #6b6b6b);
+}

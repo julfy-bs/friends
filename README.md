@@ -7,6 +7,7 @@
 - [брифом][friends-brief]
 - [макетом мобильной версии][friends-figma-mobile]
 - [макетом десктоп версии][friends-figma-web]
+- [чеклистом][friends-checklist]
 
 ## В разработке используются следующие технологии:
 
@@ -80,6 +81,7 @@ yarn install
 [developer-sutuzhko]: https://github.com/julfy-bs
 [//]: # 'Исходники'
 [friends-trello]: https://trello.com/b/wXSiXmPb/workspace-team-4
+[friends-checklist]: https://code.s3.yandex.net/web-developer/checklists-pdf/web-plus/checklist-6.pdf
 [friends-brief]: https://www.notion.so/37e46dafb47f44a29a910e5300f5e615
 [friends-figma-web]: https://www.figma.com/file/mOCTA1MNqW5l41Kmc1YzU8/%D0%A4%D0%BE%D0%BD%D0%B4-%D0%94%D1%80%D1%83%D0%B7%D1%8C%D1%8F?node-id=1%3A2
 [friends-figma-mobile]: https://www.figma.com/file/mOCTA1MNqW5l41Kmc1YzU8/%D0%A4%D0%BE%D0%BD%D0%B4-%D0%94%D1%80%D1%83%D0%B7%D1%8C%D1%8F?node-id=263%3A1385&t=Cz3zASQ3xLrdxol3-0

@@ -1,0 +1,15 @@
+.useful__img_name_books {
+  bottom: 57px;
+  height: 100px;
+  right: 23px;
+  width: 162px;
+}
+
+@media screen and (max-width: 480px) {
+  .useful__img_name_books {
+    bottom: 25px;
+    height: 70px;
+    right: 37px;
+    width: 120px;
+  }
+}

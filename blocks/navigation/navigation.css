@@ -1,26 +1,3 @@
 .navigation {
-  display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin: 0px;
-  width: 100%;
-  max-width: 870px;
-}
-
-@media screen and (max-width: 1024px) {
-  .navigation {
-    padding: 0 15px;
-  }
-}
-
-@media screen and (max-width: 860px) {
-  .navigation {
-    padding: 0 8px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .navigation {
-    display: none;
-  }
 }

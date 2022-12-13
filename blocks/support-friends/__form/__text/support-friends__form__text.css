@@ -1,10 +1,9 @@
 .support-friends__form__text {
   font-weight: 700;
   font-size: 34px;
-  line-height: 0.76;
+  line-height: 1.37;
   text-align: center;
-  margin: 0;
-  margin-bottom: 12px;
+  margin: 0 0 12px;
 }
 
 @media screen and (max-width: 1023px) {

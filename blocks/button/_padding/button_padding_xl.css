@@ -1,0 +1,11 @@
+.button_padding_xl {
+  box-sizing: border-box;
+  padding: 0 55px;
+  align-self: stretch;
+}
+
+@media screen and (max-width: 768px) {
+  .button_padding_xl {
+    padding: 0 17px;
+  }
+}

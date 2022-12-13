@@ -20,3 +20,9 @@
     width: auto;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .contact-data {
+    gap: 8px;
+  }
+}
