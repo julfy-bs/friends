@@ -1,6 +1,6 @@
-.support-friends__button__type__single {
+.support-friends__button_option_cycle {
   height: 32px;
-  grid-column: 1/7;
+  grid-column: 6/12;
   grid-row: 1;
   color: var(--color-grey-50);
   padding: 6px 0;
