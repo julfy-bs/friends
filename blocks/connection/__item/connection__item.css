@@ -1,4 +1,4 @@
-.connection__form__item {
+.connection__item {
   width: 100%;
   height: 56px;
   border: none;
@@ -9,6 +9,6 @@
   color: var(--color-black);
 }
 
-.connection__form__item:focus {
+.connection__item:focus {
   outline: none;
 }
