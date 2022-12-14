@@ -8,3 +8,9 @@
     left: 360px;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .about__figure_position_twelfth {
+    display: none;
+  }
+}
