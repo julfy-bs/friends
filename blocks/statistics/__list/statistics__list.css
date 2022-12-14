@@ -1,10 +1,17 @@
 .statistics__list {
-  padding: 38.5px 0;
-  max-width: 1032px;
-  margin: 0 auto;
   color: var(--color-white);
   display: flex;
+  gap: 24px;
   flex-wrap: wrap;
-  gap: 24px 24px;
   justify-content: center;
+  align-items: flex-start;
+  margin: 0 auto;
+  max-width: 1032px;
+  padding: 38px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .statistics__list {
+    padding: 56px 24px;
+  }
 }

@@ -3,13 +3,6 @@
   box-sizing: border-box;
   width: 100%;
   max-width: 1310px;
-  padding: 0 15px;
-}
-
-@media screen and (max-width: 960px) {
-  .our-friends {
-    padding: 0;
-  }
 }
 
 @media screen and (max-width: 768px) {
