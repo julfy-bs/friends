@@ -7,3 +7,9 @@
   justify-content: center;
   gap: 40px 8px;
 }
+
+@media screen and (max-width: 768px) {
+  .prices__list {
+    margin-top: 24px;
+  }
+}
