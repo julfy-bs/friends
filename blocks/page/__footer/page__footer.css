@@ -3,4 +3,5 @@
   background-color: var(--color-grey-20);
   color: var(--color-grey-50);
   width: 100%;
+  max-width: var(--page-max-width);
 }
