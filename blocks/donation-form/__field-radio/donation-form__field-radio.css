@@ -12,6 +12,12 @@
   line-height: 1.25;
 }
 
+.donation-form__field-radio:hover {
+  cursor: pointer;
+  background-color: var(--color-purple-70);
+  color: var(--color-white);
+}
+
 .donation-form__field-radio:has(.donation-form__control-radio:checked) {
   background-color: var(--color-purple-70);
   color: var(--color-white);
