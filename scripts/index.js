@@ -76,17 +76,17 @@ carouselElements.forEach(initSwiper);
 
 /* Форма Поддержать Друзей */
 const formSupportFriends = document.querySelector('.support-friends__form');
-const buttonType = formSupportFriends.querySelector('.support-friends__buttons__type');
+const buttonType = formSupportFriends.querySelector('.support-friends__buttons_choice_option');
 const buttonsType = buttonType.querySelectorAll('.support-friends__button');
-const buttonSum = formSupportFriends.querySelector('.support-friends__buttons__sum');
+const buttonSum = formSupportFriends.querySelector('.support-friends__buttons_choice_sum');
 const buttonsSum = buttonSum.querySelectorAll('.support-friends__button');
 
 function choiceButton(button) {
-  button.classList.add('support-friends__button__active');
+  button.classList.add('support-friends__button_active');
 }
 
 function changeButton(button) {
-  button.classList.remove('support-friends__button__active');
+  button.classList.remove('support-friends__button_active');
 }
 
 function createListeners(arr) {
