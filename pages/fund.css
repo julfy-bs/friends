@@ -217,6 +217,7 @@
 @import url('../blocks/donation-form/__name/donation-form__name.css');
 @import url('../blocks/donation-form/__row/donation-form__row.css');
 @import url('../blocks/donation-form/__submit/donation-form__submit.css');
+@import url('../blocks/donation-form/__error/donation-from__error.css');
 
 /* donation */
 @import url('../blocks/donation/__form/donation__form.css');

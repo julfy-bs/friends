@@ -63,13 +63,27 @@ hamburgerDrop.addEventListener('click', () => {
 
 // donation
 const formElement = document.querySelector('.donation-form');
-const paymentMethodControls = document.querySelectorAll('[name="paymentMethod"]');
-const bankCardElement = document.querySelector('.donation-form__bank-card');
+const paymentMethodControls = formElement.querySelectorAll('[name="paymentMethod"]');
+const bankCardElement = formElement.querySelector('.donation-form__bank-card');
+const errorElement = formElement.querySelector('.donation-from__error');
+
+function clearError() {
+  errorElement.textContent = '';
+  errorElement.setAttribute('hidden', 'true');
+}
+
+function validateForm(formData) {
+  const paymentMethod = formData.get('paymentMethod');
+  if (!paymentMethod) {
+    errorElement.textContent = 'Выберите способ оплаты';
+    errorElement.removeAttribute('hidden');
+  }
+}
 
 function handleDonationForm(event) {
   event.preventDefault();
   const data = new FormData(event.target);
-  return data;
+  validateForm(data);
 }
 
 function showBankCard() {
@@ -81,6 +95,7 @@ function hideBankCard() {
 }
 
 function handlePaymentMethod({ target }) {
+  clearError();
   const { value: paymentMethod } = target;
   if (paymentMethod === 'visaMir') {
     showBankCard();
