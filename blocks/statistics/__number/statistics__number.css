@@ -1,6 +1,20 @@
 .statistics__number {
-  margin: 0;
   font-weight: 700;
   font-size: 92px;
   line-height: 96px;
+  width: fit-content;
+}
+
+@media screen and (max-width: 768px) {
+  .statistics__number {
+    font-size: 78px;
+    line-height: 82px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .statistics__number {
+    font-size: 56px;
+    line-height: 78px;
+  }
 }
