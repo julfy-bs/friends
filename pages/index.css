@@ -276,17 +276,17 @@
 @import url('../blocks/support-friends/__title/support-friends__title.css');
 @import url('../blocks/support-friends/__title-accent/support-friends__title-accent.css');
 @import url('../blocks/support-friends/__form/support-friends__form.css');
-@import url('../blocks/support-friends/__form/__text/support-friends__form__text.css');
+@import url('../blocks/support-friends/__text/support-friends__text.css');
 @import url('../blocks/support-friends/__buttons/support-friends__buttons.css');
-@import url('../blocks/support-friends/__buttons/__sum/support-friends__buttons__sum.css');
-@import url('../blocks/support-friends/__buttons/__type/support-friends__buttons__type.css');
+@import url('../blocks/support-friends/__buttons/_choice/support-friends__buttons_choice_option.css');
+@import url('../blocks/support-friends/__buttons/_choice/support-friends__buttons_choice_sum.css');
 @import url('../blocks/support-friends/__button/support-friends__button.css');
-@import url('../blocks/support-friends/__button/__type/support-friends__button__type__single.css');
-@import url('../blocks/support-friends/__button/__type/support-friends__button__type__cycle.css');
-@import url('../blocks/support-friends/__button/__sum/support-friends__button__sum.css');
-@import url('../blocks/support-friends/__button/__active/support-friends__button__active.css');
+@import url('../blocks/support-friends/__button/_option/support-friends__button__option_cycle.css');
+@import url('../blocks/support-friends/__button/_option/support-friends__button_option_single.css');
+@import url('../blocks/support-friends/__button/_choice/support-friends__button_choice_sum.css');
+@import url('../blocks/support-friends/__button/_active/support-friends__button_active.css');
 @import url('../blocks/support-friends/__input/support-friends__input.css');
-@import url('../blocks/support-friends/__button/__submit/support-friends__button__submit.css');
+@import url('../blocks/support-friends/__button/_type/support-friends__button_type_submit.css');
 
 /* partners */
 @import url('../blocks/partners/partners.css');

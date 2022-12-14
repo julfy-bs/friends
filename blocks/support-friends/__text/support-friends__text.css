@@ -1,4 +1,4 @@
-.support-friends__form__text {
+.support-friends__text {
   font-weight: 700;
   font-size: 34px;
   line-height: 1.37;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 1023px) {
-  .support-friends__form__text {
-    font-size: 26px;
+  .support-friends__text {
+    font-size: 32px;
   }
 }
