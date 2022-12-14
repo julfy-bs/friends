@@ -1,10 +1,10 @@
-.connection__form__info {
+.connection__info {
   display: flex;
   gap: 24px;
 }
 
 @media screen and (max-width: 769px) {
-  .connection__form__info {
+  .connection__info {
     flex-direction: column;
     gap: 16px;
   }

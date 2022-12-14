@@ -125,9 +125,9 @@
 @import url('../blocks/connection/connection.css');
 @import url('../blocks/connection/__text/connection__text.css');
 @import url('../blocks/connection/__form/connection__form.css');
-@import url('../blocks/connection/__form/__info/connection__form__info.css');
-@import url('../blocks/connection/__form/__item/connection__form__item.css');
-@import url('../blocks/connection/__form/_type/connection__form_type_main-text.css');
+@import url('../blocks/connection/__info/connection__info.css');
+@import url('../blocks/connection/__item/connection__item.css');
+@import url('../blocks/connection/__item/_type/connection__item_type_main-text.css');
 
 /* popup */
 @import url('../blocks/popup/popup.css');
