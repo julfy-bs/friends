@@ -62,6 +62,7 @@
 @import url('../blocks/socials/_position/socials_position_menu.css');
 @import url('../blocks/socials/_position/socials_position_footer.css');
 @import url('../blocks/socials/__item/socials__item.css');
+@import url('../blocks/socials/__item/_size/socials__item_size_large.css');
 @import url('../blocks/socials/__icon/socials__icon.css');
 
 /* LANG SWITCHER */
