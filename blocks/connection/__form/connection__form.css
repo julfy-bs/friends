@@ -1,0 +1,15 @@
+.connection__form {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  align-items: stretch;
+  margin: 48px auto 0 auto;
+  gap: 24px;
+  max-width: 680px;
+}
+
+@media screen and (max-width: 769px) {
+  .connection__form {
+    width: 91vw;
+  }
+}

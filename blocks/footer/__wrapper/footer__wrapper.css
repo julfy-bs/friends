@@ -1,0 +1,6 @@
+.footer__wrapper {
+  margin: 0 auto;
+  max-width: 1032px;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,12 @@
+.about {
+  margin: 96px auto 0;
+  position: relative;
+  max-width: 1310px;
+}
+
+@media screen and (max-width: 767px) {
+  .about {
+    margin: 56px auto 0;
+    position: relative;
+  }
+}

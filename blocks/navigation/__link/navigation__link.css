@@ -1,0 +1,9 @@
+.navigation__link {
+  font-size: inherit;
+  line-height: inherit;
+  transition: opacity 0.25s ease;
+}
+
+.navigation__link:hover {
+  opacity: 0.4;
+}

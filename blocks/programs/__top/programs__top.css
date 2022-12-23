@@ -1,0 +1,11 @@
+.programs__top {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+@media screen and (max-width: 600px) {
+  .programs__top {
+    gap: 8px;
+  }
+}

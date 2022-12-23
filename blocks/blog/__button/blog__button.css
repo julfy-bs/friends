@@ -1,0 +1,7 @@
+.blog__button {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 328px;
+  text-decoration: none;
+  margin: 0 auto;
+}

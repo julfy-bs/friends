@@ -1,0 +1,11 @@
+.about__figure_position_fourth {
+  bottom: 297px;
+  right: 338px;
+}
+
+@media screen and (max-width: 767px) {
+  .about__figure_position_fourth {
+    bottom: 302px;
+    right: 35px;
+  }
+}

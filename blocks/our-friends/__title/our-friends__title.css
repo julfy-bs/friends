@@ -1,0 +1,13 @@
+.our-friends__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 1.14;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .our-friends__title {
+    font-size: 32px;
+  }
+}

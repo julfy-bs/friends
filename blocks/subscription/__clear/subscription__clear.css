@@ -1,0 +1,13 @@
+.subscription__clear {
+  visibility: hidden;
+  padding: 0;
+  margin: 0;
+  background-image: url('../../../images/clear-email-icon.svg');
+  width: 16px;
+  height: 16px;
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}

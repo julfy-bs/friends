@@ -1,0 +1,13 @@
+.blog__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.44;
+  transition: color 0.3s ease;
+}
+
+@media screen and (max-width: 768px) {
+  .blog__title {
+    font-size: 16px;
+  }
+}

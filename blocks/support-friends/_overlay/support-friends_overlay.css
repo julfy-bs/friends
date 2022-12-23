@@ -1,0 +1,9 @@
+.support-friends_overlay {
+  margin-bottom: -50px;
+}
+
+@media screen and (max-width: 769px) {
+  .support-friends_overlay {
+    margin-bottom: 0px;
+  }
+}

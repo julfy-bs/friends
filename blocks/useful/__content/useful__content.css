@@ -1,0 +1,24 @@
+.useful__content {
+  background-color: var(--color-grey-90);
+  box-sizing: border-box;
+  display: flex;
+  padding: 44px 157px 69px 44px;
+  position: relative;
+  height: 100%;
+  transition: background-color 0.5s ease-in, box-shadow 0.25s ease-in;
+}
+
+.useful__content:hover .useful__img {
+  transform: scale(1.1);
+}
+
+.useful__content:hover {
+  background-color: var(--color-white);
+  box-shadow: 5px 5px 35px 2px rgba(34, 60, 80, 0.2);
+}
+
+@media screen and (max-width: 480px) {
+  .useful__content {
+    padding: 32px 24px 81px;
+  }
+}

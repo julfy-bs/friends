@@ -1,0 +1,7 @@
+.more-help__button {
+  gap: 17px;
+  max-width: max-content;
+  margin-top: 32px;
+  padding: 18px 31px;
+  text-decoration: none;
+}

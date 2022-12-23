@@ -1,0 +1,20 @@
+.our-friends__slide_direction_reverse {
+  grid-template-areas: 'text image';
+  grid-template-columns: 1fr minmax(0, auto);
+  padding-right: 0;
+  padding-left: 125px;
+}
+
+@media screen and (max-width: 960px) {
+  .our-friends__slide_direction_reverse {
+    grid-template-columns: 1fr;
+    grid-template-areas: 'text';
+    padding-right: 125px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .our-friends__slide_direction_reverse {
+    padding: 40px 32px;
+  }
+}

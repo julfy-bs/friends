@@ -1,0 +1,16 @@
+.support-friends__title {
+  font-size: 62px;
+  line-height: 1.07;
+  flex: 0 0 370px;
+  text-align: start;
+  color: var(--color-white);
+}
+
+@media screen and (max-width: 1025px) {
+  .support-friends__title {
+    flex: 1;
+    margin: auto 24px;
+    font-size: 27px;
+    line-height: 1.4;
+  }
+}

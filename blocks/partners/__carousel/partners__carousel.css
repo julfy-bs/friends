@@ -1,0 +1,17 @@
+.partners__carousel {
+  margin-top: 23px;
+}
+
+.partners__carousel > .carousel__arrow_type_prev {
+  left: 0;
+}
+
+.partners__carousel > .carousel__arrow_type_next {
+  right: 0;
+}
+
+@media screen and (max-width: 500px) {
+  .partners__carousel {
+    margin-top: 16px;
+  }
+}

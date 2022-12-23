@@ -1,0 +1,13 @@
+.navigation_position_menu {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .navigation_position_menu {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    font-size: 24px;
+    line-height: 1.58;
+  }
+}

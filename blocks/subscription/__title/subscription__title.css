@@ -1,0 +1,21 @@
+.subscription__title {
+  max-width: 503px;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+@media screen and (max-width: 768px) {
+  .subscription__title {
+    letter-spacing: -1px;
+    line-height: 40px;
+    max-width: none;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .subscription__title {
+    text-align: start;
+  }
+}

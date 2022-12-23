@@ -1,0 +1,10 @@
+.socials_position_header {
+  display: flex;
+  gap: 19px;
+}
+
+@media screen and (max-width: 768px) {
+  .socials_position_header {
+    display: none;
+  }
+}

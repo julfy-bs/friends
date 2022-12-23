@@ -1,0 +1,12 @@
+.subscription {
+  margin: 0 auto;
+  width: 100%;
+  background-color: var(--color-grey-90);
+  box-sizing: border-box;
+  padding: 41px 24px 52px;
+}
+
+@media screen and (max-width: 480px) {
+  .subscription {
+  }
+}

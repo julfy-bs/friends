@@ -1,0 +1,17 @@
+.statistics__list {
+  color: var(--color-white);
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 auto;
+  max-width: 1032px;
+  padding: 38px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .statistics__list {
+    padding: 56px 24px;
+  }
+}

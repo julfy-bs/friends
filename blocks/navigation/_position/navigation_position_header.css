@@ -1,0 +1,11 @@
+.navigation_position_header {
+  display: flex;
+  gap: 16px;
+  line-height: 1.25;
+}
+
+@media screen and (max-width: 1024px) {
+  .navigation_position_header {
+    display: none;
+  }
+}

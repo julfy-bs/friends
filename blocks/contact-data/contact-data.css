@@ -1,0 +1,28 @@
+.contact-data {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  justify-content: flex-end;
+  align-items: center;
+  gap: 64px;
+}
+
+@media screen and (max-width: 1025px) {
+  .contact-data {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .contact-data {
+    grid-template-columns: 1fr;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contact-data {
+    gap: 8px;
+  }
+}

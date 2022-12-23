@@ -1,0 +1,9 @@
+.our-friends__carousel {
+  margin-top: 56px;
+}
+
+@media screen and (max-width: 768px) {
+  .our-friends__carousel {
+    margin-top: 24px;
+  }
+}

@@ -1,0 +1,5 @@
+.drop-menu_active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}

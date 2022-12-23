@@ -1,0 +1,13 @@
+.programs {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1310px;
+  margin: 96px auto 0;
+}
+
+@media screen and (max-width: 768px) {
+  .programs {
+    margin-top: 56px;
+    padding: 0;
+  }
+}

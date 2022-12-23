@@ -1,0 +1,6 @@
+.hamburger__container {
+  height: 18px;
+  overflow: hidden;
+  position: relative;
+  width: 24px;
+}

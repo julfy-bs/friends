@@ -1,0 +1,21 @@
+.programs__item {
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  min-height: 490px;
+  padding: 88px 78px 0 124px;
+}
+
+@media screen and (max-width: 1024px) {
+  .programs__item {
+    min-height: unset;
+    padding: 60px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .programs__item {
+    padding: 32px 24px 40px;
+  }
+}

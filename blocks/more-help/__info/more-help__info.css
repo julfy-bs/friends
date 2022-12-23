@@ -1,0 +1,16 @@
+.more-help__info {
+  max-width: 472px;
+  padding-left: 88px;
+}
+
+@media screen and (max-width: 900px) {
+  .more-help__info {
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .more-help__info {
+    grid-area: info;
+  }
+}

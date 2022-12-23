@@ -1,0 +1,12 @@
+.about__figure_size_l {
+  width: 151px;
+  height: 63px;
+  border-radius: 136px;
+}
+
+@media screen and (max-width: 767px) {
+  .about__figure_size_l {
+    width: 93.75px;
+    height: 40px;
+  }
+}

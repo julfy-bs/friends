@@ -1,0 +1,10 @@
+.our-friends__cite {
+  font-size: 18px;
+  line-height: 1.44;
+}
+
+@media screen and (max-width: 600px) {
+  .our-friends__cite {
+    font-size: 16px;
+  }
+}

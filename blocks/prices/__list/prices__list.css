@@ -1,0 +1,15 @@
+.prices__list {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1032px;
+  margin: 56px auto 0 auto;
+  padding: 0;
+  justify-content: center;
+  gap: 40px 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .prices__list {
+    margin-top: 24px;
+  }
+}

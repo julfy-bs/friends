@@ -1,0 +1,13 @@
+.programs__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 1.25;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .programs__title {
+    font-size: 32px;
+  }
+}

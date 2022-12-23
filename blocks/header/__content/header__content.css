@@ -1,0 +1,16 @@
+.header__content {
+  align-items: center;
+  align-self: stretch;
+  box-sizing: border-box;
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  padding: 0 40px 0 18px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .header__content {
+    gap: 24px;
+  }
+}

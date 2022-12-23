@@ -1,0 +1,7 @@
+.support-friends__button_option_cycle {
+  height: 32px;
+  grid-column: 6/12;
+  grid-row: 1;
+  color: var(--color-grey-50);
+  padding: 6px 0;
+}

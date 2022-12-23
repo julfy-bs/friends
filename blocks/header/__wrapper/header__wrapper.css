@@ -1,0 +1,16 @@
+.header__wrapper {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  min-height: var(--header-height);
+  max-width: var(--page-max-width);
+  width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  .header__wrapper {
+    justify-content: flex-start;
+  }
+}

@@ -1,0 +1,43 @@
+.subscription__input {
+  box-sizing: border-box;
+  padding-left: 34px;
+  margin: 0;
+  max-width: 328px;
+  width: 100%;
+  height: 56px;
+  border: none;
+  border-radius: 56px;
+}
+
+.subscription__input::placeholder {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--color-grey-50);
+  background-image: url('../../../images/email-icon.svg');
+  background-repeat: no-repeat;
+  padding-left: 26px;
+}
+
+.subscription__input::-webkit-input-placeholder {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--color-grey-50);
+}
+
+.subscription__input::-moz-placeholder {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--color-grey-50);
+}
+
+.subscription__input::-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--color-grey-50);
+}
+
+@media screen and (max-width: 1024px) {
+  .subscription__input {
+    max-width: none;
+  }
+}

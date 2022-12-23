@@ -1,0 +1,15 @@
+.useful__img_name_diary {
+  bottom: 41px;
+  height: 109px;
+  right: 38px;
+  width: 109px;
+}
+
+@media screen and (max-width: 480px) {
+  .useful__img_name_diary {
+    bottom: 26px;
+    right: 39px;
+    width: 94px;
+    height: 94px;
+  }
+}

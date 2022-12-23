@@ -1,0 +1,23 @@
+.support-friends__form {
+  flex: 1 1 auto;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 56px 36px 64px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1025px) {
+  .support-friends__form {
+    padding: 40px 24px;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .support-friends__form {
+    width: 100%;
+  }
+}
